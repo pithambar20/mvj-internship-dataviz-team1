@@ -1,0 +1,6 @@
+Namma Metro Project 2 Analysis Reference:
+- Total Network Ridership: 55,505,708
+- Total Unpivoted Records: 152,040 rows
+- Total Stations: 84
+- Active Dates: 48 (Aug 1 - Sep 30, 2025)
+- Full analysis available in Member3_Metro_Ridership_Analysis.xlsx and Member3_Analysis_and_Dashboard.md
