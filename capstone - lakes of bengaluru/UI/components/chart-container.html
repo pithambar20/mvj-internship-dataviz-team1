@@ -1,0 +1,23 @@
+<!-- Reusable Component: Data Visualization Chart Card -->
+<div class="chart-card">
+  <div class="chart-header">
+    <div class="chart-title-group">
+      <h3 class="chart-title">{{title}}</h3>
+      <span class="chart-engine-badge">{{module_badge}}</span>
+    </div>
+    <div class="chart-actions">
+      <button class="btn-icon" title="View Fullscreen" onclick="openChartModal('{{chart_id}}')">&#x26F6;</button>
+      <a href="{{chart_src}}" download="{{chart_id}}.png" class="btn-icon" title="Download PNG">&#x2193;</a>
+    </div>
+  </div>
+  
+  <div class="chart-body">
+    <img src="{{chart_src}}" alt="{{title}}" class="chart-image" loading="lazy">
+  </div>
+  
+  <div class="chart-footer">
+    <div class="chart-takeaway">
+      <strong>Key Finding:</strong> {{takeaway}}
+    </div>
+  </div>
+</div>

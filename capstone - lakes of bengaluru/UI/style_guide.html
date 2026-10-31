@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lakes of Bengaluru — UI Style Guide & Living Components</title>
+  <link rel="stylesheet" href="../frontend/css/style.css">
+  <link rel="stylesheet" href="../frontend/css/components.css">
+  <style>
+    body { padding: 30px; background-color: #F8F9FA; font-family: 'Inter', -apple-system, sans-serif; }
+    .guide-section { background: #fff; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+    .swatch-row { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px; }
+    .swatch-card { width: 140px; padding: 10px; border-radius: 8px; border: 1px solid #E5E8E8; text-align: center; }
+    .swatch-color { height: 60px; border-radius: 6px; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Lakes of Bengaluru — UI Design System & Component Library</h1>
+  <p style="color:#566573;">Living specification of UI tokens, badges, KPI cards, filters, and before/after components.</p>
+
+  <!-- Color Palette -->
+  <div class="guide-section">
+    <h2>1. Semantic Color Tokens</h2>
+    <div class="swatch-row">
+      <div class="swatch-card">
+        <div class="swatch-color" style="background:#1B4F72;"></div>
+        <strong>Rejuvenated</strong>
+        <div style="font-size:11px; color:#7F8C8D;">#1B4F72</div>
+      </div>
+      <div class="swatch-card">
+        <div class="swatch-color" style="background:#2980B9;"></div>
+        <strong>In Progress</strong>
+        <div style="font-size:11px; color:#7F8C8D;">#2980B9</div>
+      </div>
+      <div class="swatch-card">
+        <div class="swatch-color" style="background:#F39C12;"></div>
+        <strong>To Be Developed</strong>
+        <div style="font-size:11px; color:#7F8C8D;">#F39C12</div>
+      </div>
+      <div class="swatch-card">
+        <div class="swatch-color" style="background:#C0392B;"></div>
+        <strong>Encroached</strong>
+        <div style="font-size:11px; color:#7F8C8D;">#C0392B</div>
+      </div>
+      <div class="swatch-card">
+        <div class="swatch-color" style="background:#0E86D4;"></div>
+        <strong>Water Accent</strong>
+        <div style="font-size:11px; color:#7F8C8D;">#0E86D4</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI Cards -->
+  <div class="guide-section">
+    <h2>2. Metric KPI Cards</h2>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-label">TOTAL LAKES TRACKED</span>
+          <span class="kpi-icon">&#128167;</span>
+        </div>
+        <div class="kpi-value">207</div>
+        <div class="kpi-sub">Across 8 BBMP Civic Zones</div>
+      </div>
+      <div class="kpi-card accent-green">
+        <div class="kpi-header">
+          <span class="kpi-label">REJUVENATED LAKES</span>
+          <span class="kpi-icon">&#9989;</span>
+        </div>
+        <div class="kpi-value">102 (49.3%)</div>
+        <div class="kpi-sub">Walking Trails & Bio-fenced</div>
+      </div>
+      <div class="kpi-card accent-amber">
+        <div class="kpi-header">
+          <span class="kpi-label">WORK IN PROGRESS</span>
+          <span class="kpi-icon">&#9874;</span>
+        </div>
+        <div class="kpi-value">42 (20.3%)</div>
+        <div class="kpi-sub">Active Desilting & STP Works</div>
+      </div>
+      <div class="kpi-card accent-red">
+        <div class="kpi-header">
+          <span class="kpi-label">ENCROACHMENT RISK</span>
+          <span class="kpi-icon">&#9888;</span>
+        </div>
+        <div class="kpi-value">21 (10.1%)</div>
+        <div class="kpi-sub">High Perimeter Violation</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badges -->
+  <div class="guide-section">
+    <h2>3. Status Badges</h2>
+    <span class="badge badge-developed">Developed / Rejuvenated</span>
+    <span class="badge badge-wip">Work in Progress</span>
+    <span class="badge badge-tbd">To Be Developed</span>
+    <span class="badge badge-encroached">Degraded / Encroached</span>
+  </div>
+</body>
+</html>
