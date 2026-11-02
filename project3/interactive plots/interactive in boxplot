@@ -1,0 +1,101 @@
+
+import pandas as pd
+import plotly.express as px
+from pathlib import Path
+
+# -----------------------------------
+# STEP 1: LOAD EXCEL DATA
+# -----------------------------------
+
+file_path = Path("Bengaluru_House_Data.xlsx")
+
+if not file_path.exists():
+    raise FileNotFoundError(
+        "Excel file not found. Keep it in the same folder "
+        "as this Python program."
+    )
+
+df = pd.read_excel(file_path)
+
+print("Dataset loaded successfully!")
+print("Dataset shape:", df.shape)
+print("Available columns:", df.columns.tolist())
+
+# -----------------------------------
+# STEP 2: FIND PRICE COLUMN
+# -----------------------------------
+
+price_column = next(
+    (
+        col for col in df.columns
+        if str(col).strip().lower() in
+        ["price", "house_price", "house price"]
+    ),
+    None
+)
+
+if price_column is None:
+    raise ValueError(
+        "Price column not found. Check the column names printed above."
+    )
+
+# Convert prices to numeric values
+df[price_column] = pd.to_numeric(
+    df[price_column].astype(str).str.replace(",", "", regex=False),
+    errors="coerce"
+)
+
+# Remove missing or invalid prices
+df = df.dropna(subset=[price_column])
+df = df[df[price_column] > 0]
+
+if df.empty:
+    raise ValueError("No valid house prices found.")
+
+# -----------------------------------
+# STEP 3: CREATE INTERACTIVE BOXPLOT
+# -----------------------------------
+
+fig = px.box(
+    df,
+    y=price_column,
+    points="outliers",
+    title="Interactive Box Plot of Bengaluru House Prices",
+    labels={
+        price_column: "House Price (Lakhs)"
+    },
+    hover_data=[price_column],
+    color_discrete_sequence=["royalblue"]
+)
+
+fig.update_layout(
+    template="plotly_white",
+    title_x=0.5,
+    xaxis_title="Bengaluru Houses",
+    yaxis_title="House Price (Lakhs)"
+)
+
+fig.update_traces(
+    hovertemplate=(
+        "House Price: %{y}<extra></extra>"
+    )
+)
+
+# -----------------------------------
+# STEP 4: EXPORT TO HTML
+# -----------------------------------
+
+output_file = "interactive_house_price_boxplot.html"
+
+fig.write_html(
+    output_file,
+    include_plotlyjs=True,
+    full_html=True
+)
+
+print("\nInteractive box plot created successfully!")
+print("HTML file:", output_file)
+print("Valid house-price records:", len(df))
+
+# Display the interactive box plot
+fig.show()
