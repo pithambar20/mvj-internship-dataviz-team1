@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capstone Charter (Tue 10 Nov) — Lakes of Bengaluru</title>
+  <style>
+    :root {
+      --ink: #1e293b;
+      --muted: #475569;
+      --accent: #5b21b6;
+      --accent-bg: #f3e8ff;
+      --tag-bg: #fef3c7;
+      --tag-ink: #92400e;
+      --border: #cbd5e1;
+      --paper: #ffffff;
+      --sketch-bg: #fcfaf5;
+      --sketch-ink: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #f1f5f9;
+      color: var(--ink);
+      padding: 24px;
+      line-height: 1.45;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 28px 32px;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+    }
+
+    .title-group h1 {
+      font-size: 1.45rem;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge-num {
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.9rem;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .badge-city {
+      background: var(--tag-bg);
+      color: var(--tag-ink);
+      font-size: 0.78rem;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+
+    .meta-line {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    .meta-line a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .session-pill {
+      text-align: right;
+      font-size: 0.82rem;
+      background: var(--accent-bg);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    /* Grid sections */
+    .top-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 14px;
+      background: #fafafa;
+    }
+
+    .card h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      margin-bottom: 8px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+    }
+
+    .card ul {
+      padding-left: 18px;
+      font-size: 0.86rem;
+    }
+
+    .card li {
+      margin-bottom: 6px;
+    }
+
+    /* 3 Questions */
+    .questions-box {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      background: #fff;
+    }
+
+    .questions-box h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .q-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .q-item {
+      background: #f8fafc;
+      border-left: 3px solid var(--accent);
+      padding: 8px 10px;
+      border-radius: 4px;
+      font-size: 0.84rem;
+    }
+
+    .q-item strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--ink);
+    }
+
+    /* Paper Sketch Wireframe */
+    .sketch-container {
+      background: var(--sketch-bg);
+      border: 2px dashed #94a3b8;
+      border-radius: 8px;
+      padding: 14px 16px;
+      position: relative;
+    }
+
+    .sketch-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .sketch-header h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--sketch-ink);
+    }
+
+    .sketch-note {
+      font-size: 0.78rem;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .wireframe-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 14px;
+    }
+
+    .wf-panel {
+      border: 2px solid var(--sketch-ink);
+      border-radius: 6px;
+      background: #fffdf9;
+      padding: 10px;
+      font-family: 'Comic Sans MS', 'Bradley Hand', 'Chalkboard SE', monospace;
+      font-size: 0.78rem;
+      color: var(--sketch-ink);
+    }
+
+    .wf-topbar {
+      border-bottom: 2px solid var(--sketch-ink);
+      padding-bottom: 5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+
+    .wf-tabs span {
+      border: 1px solid var(--sketch-ink);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 0.72rem;
+    }
+
+    .wf-tabs span.active {
+      background: var(--sketch-ink);
+      color: #fff;
+    }
+
+    .wf-body-map {
+      display: grid;
+      grid-template-columns: 115px 1fr;
+      gap: 8px;
+    }
+
+    .wf-sidebar {
+      border: 1.5px solid var(--sketch-ink);
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .wf-input {
+      border: 1px solid var(--sketch-ink);
+      padding: 2px 4px;
+      margin: 4px 0 6px;
+      font-size: 0.7rem;
+      background: #f8fafc;
+    }
+
+    .wf-map-area {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .wf-kpis {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      text-align: center;
+    }
+
+    .wf-kpi {
+      border: 1px solid var(--sketch-ink);
+      padding: 3px;
+      font-size: 0.68rem;
+      border-radius: 3px;
+    }
+
+    .wf-canvas {
+      border: 1.5px solid var(--sketch-ink);
+      height: 115px;
+      border-radius: 4px;
+      position: relative;
+      background: repeating-linear-gradient(
+        45deg,
+        #fffdf9,
+        #fffdf9 10px,
+        #f1f5f9 10px,
+        #f1f5f9 11px
+      );
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .wf-story-split {
+      display: grid;
+      grid-template-columns: 1fr 24px 1fr;
+      align-items: center;
+      gap: 4px;
+      margin: 8px 0;
+    }
+
+    .wf-story-box {
+      border: 1.5px solid var(--sketch-ink);
+      height: 95px;
+      padding: 6px;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .wf-slider-handle {
+      text-align: center;
+      font-weight: bold;
+      font-size: 0.85rem;
+      background: #e2e8f0;
+      border: 1.5px solid var(--sketch-ink);
+      border-radius: 999px;
+      padding: 4px 0;
+    }
+
+    .wf-timeline {
+      border: 1px dashed var(--sketch-ink);
+      padding: 5px;
+      text-align: center;
+      font-size: 0.7rem;
+      border-radius: 4px;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+      .page {
+        box-shadow: none;
+        border: none;
+        padding: 12px;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="title-group">
+        <h1>
+          <span class="badge-num">3</span>
+          Lakes of Bengaluru — One-Page Capstone Charter
+          <span class="badge-city">Bengaluru</span>
+        </h1>
+        <p class="meta-line">
+          <strong>Data:</strong> Bengaluru lakes data and reports; BBMP lakes |
+          <strong>Source:</strong> OpenCity (<a href="https://data.opencity.in/dataset/bengaluru-lakes-data-and-reports">data.opencity.in</a>)<br />
+          <strong>Task Scope:</strong> A lake map of the city with filters, plus a before/after style story page.
+        </p>
+      </div>
+      <div class="session-pill">
+        Session 25 • Tue 10 Nov<br />
+        Capstone Kickoff (3 Members)
+      </div>
+    </header>
+
+    <!-- Audience & 3-Member Split -->
+    <section class="top-grid">
+      <div class="card">
+        <h2>1. Target Audience</h2>
+        <ul>
+          <li><strong>Bengaluru Citizens &amp; Lake Action Groups:</strong> Residents &amp; neighborhood lake trusts tracking the health, boundaries, and restoration of local ward lakes.</li>
+          <li><strong>Civic Authorities &amp; Planners (BBMP / KTCDA):</strong> Officials prioritizing desilting, sewage diversion, and encroachment clearance across zones.</li>
+          <li><strong>Urban Researchers &amp; Journalists:</strong> Analysts studying long-term ecological transformation of Bengaluru's water bodies.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>2. Team Roles (3 Members)</h2>
+        <ul>
+          <li><strong>Member 1 (Data &amp; Geospatial Pipeline):</strong> Clean OpenCity BBMP lakes dataset, map coordinates/zones, and standardize encroachment &amp; water quality attributes.</li>
+          <li><strong>Member 2 (City Lake Map &amp; Filters):</strong> Build View 1 — Interactive Bengaluru map with zone, custodian, area, and health status filters + KPI bar.</li>
+          <li><strong>Member 3 (Before/After Story Page):</strong> Build View 2 — Interactive before/after comparison view, restoration timeline, and lake case studies.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- The 3 Questions -->
+    <section class="questions-box">
+      <h2>3. The 3 Questions the Dashboard Must Answer</h2>
+      <div class="q-list">
+        <div class="q-item">
+          <strong>Q1. Spatial Distribution &amp; Status</strong>
+          Where are Bengaluru's lakes located across BBMP zones/wards, and what is their current condition when filtered by custodian, size, and rejuvenation status?
+        </div>
+        <div class="q-item">
+          <strong>Q2. Encroachment &amp; Risk Hotspots</strong>
+          Which lakes suffer the highest percentage of encroachment, shrinkage, or pollution pressure and require immediate civic intervention?
+        </div>
+        <div class="q-item">
+          <strong>Q3. Before vs. After Transformation</strong>
+          How have key Bengaluru lakes changed before and after urbanization or restoration drives in terms of water spread, wetland recovery, and community impact?
+        </div>
+      </div>
+    </section>
+
+    <!-- Sketch Wireframe on Paper -->
+    <section class="sketch-container">
+      <div class="sketch-header">
+        <h2>4. Low-Fidelity Wireframe Sketch (Paper Concept)</h2>
+        <span class="sketch-note">Two-view architecture: Interactive Filterable Map + Before/After Story Page</span>
+      </div>
+
+      <div class="wireframe-grid">
+        <!-- View 1 Wireframe -->
+        <div class="wf-panel">
+          <div class="wf-topbar">
+            <span>VIEW 1: CITY LAKE MAP</span>
+            <div class="wf-tabs">
+              <span class="active">Map Explorer</span>
+              <span>Before/After Story</span>
+            </div>
+          </div>
+
+          <div class="wf-body-map">
+            <div class="wf-sidebar">
+              <strong>FILTERS</strong>
+              <div class="wf-input">Search lake...</div>
+              <div><strong>BBMP Zone</strong></div>
+              <div>[x] East [x] South</div>
+              <div>[x] West [x] Mahad.</div>
+              <div style="margin-top:4px;"><strong>Status</strong></div>
+              <div>(•) All Lakes</div>
+              <div>( ) Rejuvenated</div>
+              <div>( ) Encroached</div>
+              <div style="margin-top:4px;"><strong>Area (Acres)</strong></div>
+              <div>[===O====] 5–500</div>
+            </div>
+
+            <div class="wf-map-area">
+              <div class="wf-kpis">
+                <div class="wf-kpi"><strong>200+</strong><br/>Total Lakes</div>
+                <div class="wf-kpi"><strong>% Area</strong><br/>Encroached</div>
+                <div class="wf-kpi"><strong>Rejuvenated</strong><br/>Count</div>
+              </div>
+              <div class="wf-canvas">
+                <strong>[ BENGALURU GEO-MAP ]</strong>
+                <span>• Hebbal &nbsp; • Ulsoor &nbsp; • Bellandur</span>
+                <span>• Jakkur &nbsp; • Puttenahalli</span>
+                <span style="font-size:0.66rem; margin-top:4px;">(Color-coded pins by lake health)</span>
+              </div>
+              <div class="wf-kpi" style="text-align:left; padding:4px 6px;">
+                <strong>Selected Lake Card:</strong> Area | Zone | Encroachment % | <u>[View Before/After →]</u>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View 2 Wireframe -->
+        <div class="wf-panel">
+          <div class="wf-topbar">
+            <span>VIEW 2: BEFORE / AFTER STORY</span>
+            <div class="wf-tabs">
+              <span>Map Explorer</span>
+              <span class="active">Before/After Story</span>
+            </div>
+          </div>
+
+          <div class="wf-input" style="margin-bottom:6px;">
+            <strong>Select Story Lake:</strong> [ Jakkur Lake / Puttenahalli / Bellandur ▼ ]
+          </div>
+
+          <div class="wf-story-split">
+            <div class="wf-story-box">
+              <strong>BEFORE (Pre-Restoration)</strong>
+              <p>• Shrinking water boundary<br/>• Sewage inflow &amp; weeds<br/>• Encroached bunds</p>
+              <span style="font-size:0.68rem;">[Historical Satellite / Data]</span>
+            </div>
+
+            <div class="wf-slider-handle">◄►</div>
+
+            <div class="wf-story-box">
+              <strong>AFTER (Post-Restoration)</strong>
+              <p>• Desilted basin &amp; islands<br/>• Constructed wetland/STP<br/>• Bird &amp; groundwater revival</p>
+              <span style="font-size:0.68rem;">[Current Satellite / Data]</span>
+            </div>
+          </div>
+
+          <div class="wf-timeline">
+            <strong>TRANSFORMATION TIMELINE &amp; METRICS</strong><br/>
+            [Baseline Survey] ──► [Encroachment Eviction] ──► [Current Water Spread &amp; Quality]
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
