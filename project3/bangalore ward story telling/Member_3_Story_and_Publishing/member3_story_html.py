@@ -1,6 +1,6 @@
 """
 MEMBER 3 — VISUAL STORY, ANNOTATIONS & HTML PAGE
-Run after Member 2. Output: final_output/index.html
+Run after Member 2. Output: ../index.html
 """
 from pathlib import Path
 import pandas as pd
@@ -8,8 +8,7 @@ from html import escape
 
 DATA = Path("../shared_data/ward_population_clean.csv")
 CHARTS = Path("../Member_2_Visualizations/charts/visualizations.html")
-OUT = Path("final_output")
-OUT.mkdir(exist_ok=True)
+OUT = Path("..")
 
 df = pd.read_csv(DATA)
 charts = CHARTS.read_text(encoding="utf-8")
@@ -60,5 +59,6 @@ Population source: Bengaluru Census 2011 ward-wise data, republished by OpenCity
 <a href="https://data.opencity.in/dataset/bengaluru-census-2011">OpenCity Census data</a>
 </section></main><footer>Built with Python, Pandas and Plotly · Internship Project</footer>
 </body></html>"""
-(OUT / "index.html").write_text(html, encoding="utf-8")
-print("MEMBER 3 COMPLETE — final_output/index.html created.")
+output = OUT / "index.html"
+output.write_text(html, encoding="utf-8")
+print(f"MEMBER 3 COMPLETE — {output.resolve()} created.")

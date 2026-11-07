@@ -19,21 +19,21 @@
 - Use Member 1's cleaned CSV and Member 2's HTML charts.
 - Calculate and write three key messages from the data.
 - Add annotations, page layout, data limitations and source links.
-- Generate `final_output/index.html`.
+- Generate `index.html` in the project root.
 - Publish `index.html` using GitHub Pages.
 
 ## Run order and folder layout
 1. Member 1: open terminal in `Member_1_Data_Preparation` and run:
    `pip install pandas numpy requests`
    `python member1_data_preparation.py`
-2. Move/copy the generated `shared_data` folder to the project root so it sits beside the three member folders.
+2. The generated `shared_data` folder is created in the project root beside the three member folders.
 3. Member 2: open terminal in `Member_2_Visualizations` and run:
    `pip install pandas plotly`
    `python member2_visualizations.py`
 4. Member 3: open terminal in `Member_3_Story_and_Publishing` and run:
    `pip install pandas`
    `python member3_story_html.py`
-5. Final output is `Member_3_Story_and_Publishing/final_output/index.html`.
+5. Final output is `index.html` in the project root.
 
 **Important:** For Member 2 and Member 3, the `shared_data` folder must be at the project root. Keep the provided folder names unchanged because the scripts use relative paths. Run the scripts from their own member folders.
 

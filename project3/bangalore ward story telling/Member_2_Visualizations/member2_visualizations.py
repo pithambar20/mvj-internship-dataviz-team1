@@ -15,11 +15,13 @@ df = pd.read_csv(DATA / "ward_population_clean.csv")
 with open(DATA / "wards_matched.geojson", encoding="utf-8") as f:
     geo = json.load(f)
 
-map_fig = px.choropleth_mapbox(
+map_function = px.choropleth_map if hasattr(px, "choropleth_map") else px.choropleth_mapbox
+map_style = {"map_style": "carto-positron"} if hasattr(px, "choropleth_map") else {"mapbox_style": "carto-positron"}
+map_fig = map_function(
     df, geojson=geo, locations="WARD_NO", featureidkey="properties.WARD_JOIN",
     color="POP_TOTAL", hover_name="WARD_NAME",
     hover_data={"WARD_NO": True, "POP_TOTAL": ":,", "POP_M": ":,", "POP_F": ":,"},
-    color_continuous_scale="YlOrRd", mapbox_style="carto-positron",
+    color_continuous_scale="YlOrRd", **map_style,
     center={"lat": 12.9716, "lon": 77.5946}, zoom=9.1, opacity=.78,
     title="Bengaluru ward population — Census 2011"
 )
