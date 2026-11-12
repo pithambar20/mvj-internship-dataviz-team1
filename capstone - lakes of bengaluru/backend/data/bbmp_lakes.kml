@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="lakes" id="lakes">
+	<SimpleField name="FID" type="int"></SimpleField>
+	<SimpleField name="Sl NO" type="int"></SimpleField>
+	<SimpleField name="Name of th" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="string"></SimpleField>
+	<SimpleField name="Longitude" type="string"></SimpleField>
+</Schema>
+<Folder><name>lakes</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">0</SimpleData>
+		<SimpleData name="Sl NO">1</SimpleData>
+		<SimpleData name="Name of th">Ulsoor / Bangalore Central</SimpleData>
+		<SimpleData name="Latitude">12�58'58.1&quot;N 
+</SimpleData>
+		<SimpleData name="Longitude">77�37'09.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6193056,12.9828056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">1</SimpleData>
+		<SimpleData name="Sl NO">2</SimpleData>
+		<SimpleData name="Name of th">Kelagina kere / Byrasnadra</SimpleData>
+		<SimpleData name="Latitude">12�58'42.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'43.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6620556,12.9784444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">2</SimpleData>
+		<SimpleData name="Sl NO">3</SimpleData>
+		<SimpleData name="Name of th">Kaggadasapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�58'53.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'13.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6704722,12.9815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">3</SimpleData>
+		<SimpleData name="Sl NO">4</SimpleData>
+		<SimpleData name="Name of th">Melina kere byrasandra (DRDO)</SimpleData>
+		<SimpleData name="Latitude">12�58'45.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'19.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6553889,12.97925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">4</SimpleData>
+		<SimpleData name="Sl NO">5</SimpleData>
+		<SimpleData name="Name of th">B. Channasandra Lake</SimpleData>
+		<SimpleData name="Latitude">13�00'23.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'42.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6617222,13.0063889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">5</SimpleData>
+		<SimpleData name="Sl NO">6</SimpleData>
+		<SimpleData name="Name of th">Channasandra Lake</SimpleData>
+		<SimpleData name="Latitude">13�00'43.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'11.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.65325,13.0121111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">6</SimpleData>
+		<SimpleData name="Sl NO">7</SimpleData>
+		<SimpleData name="Name of th">Malagala (Balaiahna Lake)  Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�58?41.4?</SimpleData>
+		<SimpleData name="Longitude">77�31?40.5?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5279167,12.9781667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">7</SimpleData>
+		<SimpleData name="Sl NO">8</SimpleData>
+		<SimpleData name="Name of th">Nayadahalli Lake  Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�56'24.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�31'15.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5210833,12.9401389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">8</SimpleData>
+		<SimpleData name="Sl NO">9</SimpleData>
+		<SimpleData name="Name of th">Sankey tank / Bangalore Central</SimpleData>
+		<SimpleData name="Latitude">13�00'37.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'26.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5739167,13.0105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">9</SimpleData>
+		<SimpleData name="Sl NO">10</SimpleData>
+		<SimpleData name="Name of th">Gowdana Palya Lake</SimpleData>
+		<SimpleData name="Latitude">12�54'27.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'22.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5562778,12.9076389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">10</SimpleData>
+		<SimpleData name="Sl NO">11</SimpleData>
+		<SimpleData name="Name of th">Yediyur Lake Bangalore south</SimpleData>
+		<SimpleData name="Latitude">12�56'00.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'36.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5766944,12.9333611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">11</SimpleData>
+		<SimpleData name="Sl NO">12</SimpleData>
+		<SimpleData name="Name of th">Deepanjali lake Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�56?59.79?</SimpleData>
+		<SimpleData name="Longitude">77�31?52.650?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5312917,12.9499417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">12</SimpleData>
+		<SimpleData name="Sl NO">13</SimpleData>
+		<SimpleData name="Name of th">Kempambudhi Lake Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�57'08.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'35.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5598889,12.9523056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">13</SimpleData>
+		<SimpleData name="Sl NO">14</SimpleData>
+		<SimpleData name="Name of th">Mesthripalya lake</SimpleData>
+		<SimpleData name="Latitude">12�55?53.8?</SimpleData>
+		<SimpleData name="Longitude">77�37?30.5?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6251389,12.9316111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">14</SimpleData>
+		<SimpleData name="Sl NO">15</SimpleData>
+		<SimpleData name="Name of th">Byrasandra lake / Chikkapete lake</SimpleData>
+		<SimpleData name="Latitude">12�55'48.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'44.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5956389,12.9300833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">15</SimpleData>
+		<SimpleData name="Sl NO">16</SimpleData>
+		<SimpleData name="Name of th">Dasarahalli (Chokkasandra) Lake  Bangalore North</SimpleData>
+		<SimpleData name="Latitude">13�02'26.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�30'41.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5114167,13.0406667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">16</SimpleData>
+		<SimpleData name="Sl NO">17</SimpleData>
+		<SimpleData name="Name of th">Kamgondanahalli Kere  Bangalore North</SimpleData>
+		<SimpleData name="Latitude">13�04?03.3?</SimpleData>
+		<SimpleData name="Longitude">77�31?29.2?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5247778,13.0675833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">17</SimpleData>
+		<SimpleData name="Sl NO">18</SimpleData>
+		<SimpleData name="Name of th">Bagalgunte Lake</SimpleData>
+		<SimpleData name="Latitude">13�03?29.6?</SimpleData>
+		<SimpleData name="Longitude">77�30?00.3?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5000833,13.0582222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">18</SimpleData>
+		<SimpleData name="Sl NO">19</SimpleData>
+		<SimpleData name="Name of th">Narasappanahalli Kere</SimpleData>
+		<SimpleData name="Latitude">13�01?14.8?</SimpleData>
+		<SimpleData name="Longitude">77�29?38.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.494,13.0207778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">19</SimpleData>
+		<SimpleData name="Sl NO">20</SimpleData>
+		<SimpleData name="Name of th">Abbigere Kere</SimpleData>
+		<SimpleData name="Latitude">13�04?55.7?</SimpleData>
+		<SimpleData name="Longitude">77�31?47.5?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5298611,13.0821389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">20</SimpleData>
+		<SimpleData name="Sl NO">21</SimpleData>
+		<SimpleData name="Name of th">Nelagedaranahalli lake</SimpleData>
+		<SimpleData name="Latitude">13�01'17.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'44.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4957778,13.0215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">21</SimpleData>
+		<SimpleData name="Sl NO">22</SimpleData>
+		<SimpleData name="Name of th">Mallasandra gudde lake</SimpleData>
+		<SimpleData name="Latitude">13�00?53.23?</SimpleData>
+		<SimpleData name="Longitude">77�47?7.19?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7853306,13.0147861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">22</SimpleData>
+		<SimpleData name="Sl NO">23</SimpleData>
+		<SimpleData name="Name of th">Halage vaderahalli Lake Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�55'27.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�30'53.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5148056,12.9241667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">23</SimpleData>
+		<SimpleData name="Sl NO">24</SimpleData>
+		<SimpleData name="Name of th">J.P Park / Bangalore North</SimpleData>
+		<SimpleData name="Latitude">13�02'06.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'01.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5503056,13.0350833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">24</SimpleData>
+		<SimpleData name="Sl NO">25</SimpleData>
+		<SimpleData name="Name of th">Mallathahalli lake / Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�57'54.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'38.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4940833,12.9650556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">25</SimpleData>
+		<SimpleData name="Sl NO">27</SimpleData>
+		<SimpleData name="Name of th">Srigandadakaval</SimpleData>
+		<SimpleData name="Latitude">12�59'02.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�30'03.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5009444,12.984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">26</SimpleData>
+		<SimpleData name="Sl NO">28</SimpleData>
+		<SimpleData name="Name of th">Nagarabhavi Lake</SimpleData>
+		<SimpleData name="Latitude">12�57 ? 54.684</SimpleData>
+		<SimpleData name="Longitude">77�30?30.495?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5084708,12.96519</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">27</SimpleData>
+		<SimpleData name="Sl NO">29</SimpleData>
+		<SimpleData name="Name of th">Hosakerehalli lake</SimpleData>
+		<SimpleData name="Latitude">12�55'38.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�31'58.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5328611,12.9274444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">28</SimpleData>
+		<SimpleData name="Sl NO">30</SimpleData>
+		<SimpleData name="Name of th">Herohalli Lake Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�59'18.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'22.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4896944,12.9885833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">29</SimpleData>
+		<SimpleData name="Sl NO">31</SimpleData>
+		<SimpleData name="Name of th">Lingadeeranahalli (handrahalli) Lake  Bangalore North</SimpleData>
+		<SimpleData name="Latitude">13�00'10.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'00.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4835278,13.0028056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">30</SimpleData>
+		<SimpleData name="Sl NO">32</SimpleData>
+		<SimpleData name="Name of th">Handrahalli kere Bangalore North</SimpleData>
+		<SimpleData name="Latitude">13�00.617 ?</SimpleData>
+		<SimpleData name="Longitude">77�29.199?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.48665,13.0102833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">31</SimpleData>
+		<SimpleData name="Sl NO">33</SimpleData>
+		<SimpleData name="Name of th">Kodigehalli lake / Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�58.674 ?</SimpleData>
+		<SimpleData name="Longitude">77�28.089?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.46815,12.9779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">32</SimpleData>
+		<SimpleData name="Sl NO">34</SimpleData>
+		<SimpleData name="Name of th">Jogi kere / Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�51'47.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�32'18.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5383889,12.8631111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">33</SimpleData>
+		<SimpleData name="Sl NO">35</SimpleData>
+		<SimpleData name="Name of th">Ullala lake / Bangalore North</SimpleData>
+		<SimpleData name="Latitude">12�57'39.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�28'49.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4803611,12.9609722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">34</SimpleData>
+		<SimpleData name="Sl NO">36</SimpleData>
+		<SimpleData name="Name of th">H Gollahalli kere/ Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�52.539 ?</SimpleData>
+		<SimpleData name="Longitude">77�28.996?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4832667,12.87565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">35</SimpleData>
+		<SimpleData name="Sl NO">37</SimpleData>
+		<SimpleData name="Name of th">Bayyapanapalya Kunte/ Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�52.087 ?</SimpleData>
+		<SimpleData name="Longitude">77�32.637?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.54395,12.8681167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">36</SimpleData>
+		<SimpleData name="Sl NO">38</SimpleData>
+		<SimpleData name="Name of th">Vishwaneedum Lake</SimpleData>
+		<SimpleData name="Latitude">12�58.980 ?</SimpleData>
+		<SimpleData name="Longitude">77�29.490?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4915,12.983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">37</SimpleData>
+		<SimpleData name="Sl NO">39</SimpleData>
+		<SimpleData name="Name of th">Talghatapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�52.057 ?</SimpleData>
+		<SimpleData name="Longitude">77�31.921?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5320167,12.8676167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">38</SimpleData>
+		<SimpleData name="Sl NO">40</SimpleData>
+		<SimpleData name="Name of th">Doddabidarakallu /Nagasandra kere</SimpleData>
+		<SimpleData name="Latitude">13�02'37.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'41.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4947778,13.0437222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">39</SimpleData>
+		<SimpleData name="Sl NO">41</SimpleData>
+		<SimpleData name="Name of th">Gubbalalu Lake</SimpleData>
+		<SimpleData name="Latitude">12�52?34.0?</SimpleData>
+		<SimpleData name="Longitude">77 32?26.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5405556,12.8761111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">40</SimpleData>
+		<SimpleData name="Sl NO">42</SimpleData>
+		<SimpleData name="Name of th">Varahasandra Lake</SimpleData>
+		<SimpleData name="Latitude">12�52 ? 46.4</SimpleData>
+		<SimpleData name="Longitude">77�29?34.7?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4929722,12.8795556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">41</SimpleData>
+		<SimpleData name="Sl NO">43</SimpleData>
+		<SimpleData name="Name of th">Mangammanahalli lake</SimpleData>
+		<SimpleData name="Latitude"></SimpleData>
+		<SimpleData name="Longitude"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">42</SimpleData>
+		<SimpleData name="Sl NO">44</SimpleData>
+		<SimpleData name="Name of th">Lingadeeranahalli</SimpleData>
+		<SimpleData name="Latitude">12�52'19.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�30'50.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5140278,12.8721389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">43</SimpleData>
+		<SimpleData name="Sl NO">45</SimpleData>
+		<SimpleData name="Name of th">Konasandra Lake</SimpleData>
+		<SimpleData name="Latitude">12�53.491 ?</SimpleData>
+		<SimpleData name="Longitude">77�28.975?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4829167,12.8915167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">44</SimpleData>
+		<SimpleData name="Sl NO">46</SimpleData>
+		<SimpleData name="Name of th">Chikkagowdanapaly lake</SimpleData>
+		<SimpleData name="Latitude">12�52.876?</SimpleData>
+		<SimpleData name="Longitude">77� 31.027?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5171167,12.8812667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">45</SimpleData>
+		<SimpleData name="Sl NO">47</SimpleData>
+		<SimpleData name="Name of th">Dubasipalay lake (Valagerahalli)</SimpleData>
+		<SimpleData name="Latitude">12�55.888?</SimpleData>
+		<SimpleData name="Longitude">77�29.617?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4936167,12.9314667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">46</SimpleData>
+		<SimpleData name="Sl NO">48</SimpleData>
+		<SimpleData name="Name of th">Mylasandra (Sunnakallu palya) lake</SimpleData>
+		<SimpleData name="Latitude">12�51?07.8?</SimpleData>
+		<SimpleData name="Longitude">77�36?58.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6161111,12.8521667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">47</SimpleData>
+		<SimpleData name="Sl NO">49</SimpleData>
+		<SimpleData name="Name of th">Busegowdana lake</SimpleData>
+		<SimpleData name="Latitude">
+12�54'23.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'45.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4958333,12.9064167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">48</SimpleData>
+		<SimpleData name="Sl NO">50</SimpleData>
+		<SimpleData name="Name of th">Kengeri Lake</SimpleData>
+		<SimpleData name="Latitude">12�54'58.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'12.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4867778,12.9163611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">49</SimpleData>
+		<SimpleData name="Sl NO">51</SimpleData>
+		<SimpleData name="Name of th">Dorekere</SimpleData>
+		<SimpleData name="Latitude">12�54'10.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'00.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5501389,12.9028333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">50</SimpleData>
+		<SimpleData name="Sl NO">52</SimpleData>
+		<SimpleData name="Name of th">Uttarahalli Lake / Bandgalore South</SimpleData>
+		<SimpleData name="Latitude">12�54'28.2&quot;N 
+</SimpleData>
+		<SimpleData name="Longitude">77�32'28.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5411667,12.9078333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">51</SimpleData>
+		<SimpleData name="Sl NO">53</SimpleData>
+		<SimpleData name="Name of th">Singasandra / Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�52'56.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'43.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6452778,12.8823889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">52</SimpleData>
+		<SimpleData name="Sl NO">54</SimpleData>
+		<SimpleData name="Name of th">Parappana Agrahara / Bangalore south</SimpleData>
+		<SimpleData name="Latitude">12�52'44.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'39.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6608333,12.8790278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">53</SimpleData>
+		<SimpleData name="Sl NO">55</SimpleData>
+		<SimpleData name="Name of th">Kudlu Chikka kere / Anekal taluk</SimpleData>
+		<SimpleData name="Latitude">12�53.562?</SimpleData>
+		<SimpleData name="Longitude">77�39.318 ?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6553,12.8927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">54</SimpleData>
+		<SimpleData name="Sl NO">56</SimpleData>
+		<SimpleData name="Name of th">Kudlu doddakere / Anekal</SimpleData>
+		<SimpleData name="Latitude">12�53.1501?</SimpleData>
+		<SimpleData name="Longitude">77�40.0021?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6667017,12.885835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">55</SimpleData>
+		<SimpleData name="Sl NO">57</SimpleData>
+		<SimpleData name="Name of th">Kodige Singasandra Lake</SimpleData>
+		<SimpleData name="Latitude">12�52.755?</SimpleData>
+		<SimpleData name="Longitude">77�38.538?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6423,12.87925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">56</SimpleData>
+		<SimpleData name="Sl NO">58</SimpleData>
+		<SimpleData name="Name of th">Basapura Lake-1/ Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�52.215?</SimpleData>
+		<SimpleData name="Longitude">77�38.931?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.64885,12.87025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">57</SimpleData>
+		<SimpleData name="Sl NO">59</SimpleData>
+		<SimpleData name="Name of th">Annappanakere / Yelchenahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�53?57.0?</SimpleData>
+		<SimpleData name="Longitude">77�33?54.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5651111,12.8991667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">58</SimpleData>
+		<SimpleData name="Sl NO">60</SimpleData>
+		<SimpleData name="Name of th">Kalena Agrahara Lake</SimpleData>
+		<SimpleData name="Latitude">12�51'55.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'22.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5896667,12.8654167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">59</SimpleData>
+		<SimpleData name="Sl NO">61</SimpleData>
+		<SimpleData name="Name of th">Bheemana Katte</SimpleData>
+		<SimpleData name="Latitude">12�54'54.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�31'43.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5286667,12.9151667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">60</SimpleData>
+		<SimpleData name="Sl NO">62</SimpleData>
+		<SimpleData name="Name of th">Begur Lake</SimpleData>
+		<SimpleData name="Latitude">12�52'29.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'47.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6299722,12.8747222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">61</SimpleData>
+		<SimpleData name="Sl NO">63</SimpleData>
+		<SimpleData name="Name of th">Gottigere</SimpleData>
+		<SimpleData name="Latitude">12�51'09.8&quot;N 
+</SimpleData>
+		<SimpleData name="Longitude">77�35'22.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5894444,12.8527222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">62</SimpleData>
+		<SimpleData name="Sl NO">64</SimpleData>
+		<SimpleData name="Name of th">Subramanyapura lake</SimpleData>
+		<SimpleData name="Latitude">12�53'46.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�32'34.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5428056,12.8962222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">63</SimpleData>
+		<SimpleData name="Sl NO">65</SimpleData>
+		<SimpleData name="Name of th">Anjanapura Lake / Alahalli</SimpleData>
+		<SimpleData name="Latitude">12�52?01.5?</SimpleData>
+		<SimpleData name="Longitude">77�33?56.6?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5657222,12.8670833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">64</SimpleData>
+		<SimpleData name="Sl NO">66</SimpleData>
+		<SimpleData name="Name of th">Puttenahalli/ Byraweshwara nagara Chunchaghatta kere</SimpleData>
+		<SimpleData name="Latitude">12�53'15.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'30.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5751944,12.88775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">65</SimpleData>
+		<SimpleData name="Sl NO">67</SimpleData>
+		<SimpleData name="Name of th">Kothanuru lake</SimpleData>
+		<SimpleData name="Latitude">12�52'24.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'47.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.57975,12.8735556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">66</SimpleData>
+		<SimpleData name="Sl NO">68</SimpleData>
+		<SimpleData name="Name of th">Basapura Lake-2/ Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�52'06.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'38.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6438889,12.8685833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">67</SimpleData>
+		<SimpleData name="Sl NO">69</SimpleData>
+		<SimpleData name="Name of th">Basavanapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�50'40.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'21.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5891667,12.8445556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">68</SimpleData>
+		<SimpleData name="Sl NO">70</SimpleData>
+		<SimpleData name="Name of th">Chikka Begur Lake</SimpleData>
+		<SimpleData name="Latitude">12�53 05.4?</SimpleData>
+		<SimpleData name="Longitude">77 38 19.6 ?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6387778,12.8848333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">69</SimpleData>
+		<SimpleData name="Sl NO">71</SimpleData>
+		<SimpleData name="Name of th">Hulimavu Lake</SimpleData>
+		<SimpleData name="Latitude">12�52'13.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'12.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6033611,12.8703333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">70</SimpleData>
+		<SimpleData name="Sl NO">72</SimpleData>
+		<SimpleData name="Name of th">Konappana Agrahara lake</SimpleData>
+		<SimpleData name="Latitude">12�52?42.1?</SimpleData>
+		<SimpleData name="Longitude">77�40?09.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6691667,12.8783611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">71</SimpleData>
+		<SimpleData name="Sl NO">73</SimpleData>
+		<SimpleData name="Name of th">Kammanahalli Lake (Meenakshi Lake)</SimpleData>
+		<SimpleData name="Latitude">12�51?17.6?</SimpleData>
+		<SimpleData name="Longitude">77�36?12.7?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6035278,12.8548889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">72</SimpleData>
+		<SimpleData name="Sl NO">74</SimpleData>
+		<SimpleData name="Name of th">Vasanthapura kere</SimpleData>
+		<SimpleData name="Latitude">12�53'28.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'24.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5567778,12.89125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">73</SimpleData>
+		<SimpleData name="Sl NO">75</SimpleData>
+		<SimpleData name="Name of th">Devarakere</SimpleData>
+		<SimpleData name="Latitude">12�53'51.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'15.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.55425,12.8976111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">74</SimpleData>
+		<SimpleData name="Sl NO">76</SimpleData>
+		<SimpleData name="Name of th">Yelenahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�51'59.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'50.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6141111,12.8665833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">75</SimpleData>
+		<SimpleData name="Sl NO">77</SimpleData>
+		<SimpleData name="Name of th">Doddakallasandra Lake</SimpleData>
+		<SimpleData name="Latitude">12�53'29.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'06.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5684167,12.8913889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">76</SimpleData>
+		<SimpleData name="Sl NO">78</SimpleData>
+		<SimpleData name="Name of th">Chowdeshwari layout Lake</SimpleData>
+		<SimpleData name="Latitude">12�51?58.3?</SimpleData>
+		<SimpleData name="Longitude">77�39?40.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6611111,12.8661944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">77</SimpleData>
+		<SimpleData name="Sl NO">79</SimpleData>
+		<SimpleData name="Name of th">Nyanappanahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�52'18.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'52.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6146389,12.87175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">78</SimpleData>
+		<SimpleData name="Sl NO">80</SimpleData>
+		<SimpleData name="Name of th">Subedaranakere</SimpleData>
+		<SimpleData name="Latitude">12�31?30.9?</SimpleData>
+		<SimpleData name="Longitude">77�36?47.7?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.61325,12.52525</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">79</SimpleData>
+		<SimpleData name="Sl NO">81</SimpleData>
+		<SimpleData name="Name of th">Chikkammanahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�50?57.0?</SimpleData>
+		<SimpleData name="Longitude">77�36?09.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6026111,12.8491667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">80</SimpleData>
+		<SimpleData name="Sl NO">82</SimpleData>
+		<SimpleData name="Name of th">Konanakunte Lake</SimpleData>
+		<SimpleData name="Latitude">12�52'55.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'39.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5609722,12.882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">81</SimpleData>
+		<SimpleData name="Sl NO">83</SimpleData>
+		<SimpleData name="Name of th">Swarnakunte gudda kere</SimpleData>
+		<SimpleData name="Latitude">12�50?57.0?</SimpleData>
+		<SimpleData name="Longitude">77�36?09.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6026111,12.8491667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">82</SimpleData>
+		<SimpleData name="Sl NO">84</SimpleData>
+		<SimpleData name="Name of th">Kembathahalli lake</SimpleData>
+		<SimpleData name="Latitude">12�51'29.0&quot;N 
+</SimpleData>
+		<SimpleData name="Longitude">77�34'38.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.57725,12.8580556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">83</SimpleData>
+		<SimpleData name="Sl NO">85</SimpleData>
+		<SimpleData name="Name of th">Gattigerepalya (Sompura) lake</SimpleData>
+		<SimpleData name="Latitude">12�52'27.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'54.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4984167,12.8744167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">84</SimpleData>
+		<SimpleData name="Sl NO">86</SimpleData>
+		<SimpleData name="Name of th">Arekere lake</SimpleData>
+		<SimpleData name="Latitude">12�52'57.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'56.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5989444,12.8827222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">85</SimpleData>
+		<SimpleData name="Sl NO">87</SimpleData>
+		<SimpleData name="Name of th">Subbarayana lake</SimpleData>
+		<SimpleData name="Latitude">12�51.775?</SimpleData>
+		<SimpleData name="Longitude">77 35.110?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5851667,12.8629167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">86</SimpleData>
+		<SimpleData name="Sl NO">88</SimpleData>
+		<SimpleData name="Name of th">Kalyanikunte (Near Saibaba Temple)</SimpleData>
+		<SimpleData name="Latitude">12�53.694?</SimpleData>
+		<SimpleData name="Longitude">77 33.259?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5543167,12.8949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">87</SimpleData>
+		<SimpleData name="Sl NO">89</SimpleData>
+		<SimpleData name="Name of th">Puttenahalli Lake (Next to Brigade Millenium) Bangalore South</SimpleData>
+		<SimpleData name="Latitude">12�53'24.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'15.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5876389,12.8902222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">88</SimpleData>
+		<SimpleData name="Sl NO">90</SimpleData>
+		<SimpleData name="Name of th">Mangammana Palya Kaere</SimpleData>
+		<SimpleData name="Latitude">12�54'07.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'20.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6391389,12.9020833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">89</SimpleData>
+		<SimpleData name="Sl NO">91</SimpleData>
+		<SimpleData name="Name of th">Ibblur Lake</SimpleData>
+		<SimpleData name="Latitude">12�55'19.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'59.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6665833,12.9221111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">90</SimpleData>
+		<SimpleData name="Sl NO">92</SimpleData>
+		<SimpleData name="Name of th">Sarakki/Jaraganahalli/Puttenahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�53'55.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'46.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5794444,12.8988333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">91</SimpleData>
+		<SimpleData name="Sl NO">93</SimpleData>
+		<SimpleData name="Name of th">Haralakunte Lake (Somasandrakere)</SimpleData>
+		<SimpleData name="Latitude">12�53.958?</SimpleData>
+		<SimpleData name="Longitude">77�38.901?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.64835,12.8993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">92</SimpleData>
+		<SimpleData name="Sl NO">94</SimpleData>
+		<SimpleData name="Name of th">Venkogirao kere</SimpleData>
+		<SimpleData name="Latitude">12�55'21.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'30.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6418056,12.9226111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">93</SimpleData>
+		<SimpleData name="Sl NO">95</SimpleData>
+		<SimpleData name="Name of th">Garveybhavipalya Lake</SimpleData>
+		<SimpleData name="Latitude">12�53'46.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'13.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6370556,12.89625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">94</SimpleData>
+		<SimpleData name="Sl NO">96</SimpleData>
+		<SimpleData name="Name of th">Madivala lake</SimpleData>
+		<SimpleData name="Latitude">12�54'29.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'04.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6178611,12.9081667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">95</SimpleData>
+		<SimpleData name="Sl NO">97</SimpleData>
+		<SimpleData name="Name of th">Ambalipura Kelagina kere</SimpleData>
+		<SimpleData name="Latitude">12�55'01.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'53.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6649722,12.9169444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">96</SimpleData>
+		<SimpleData name="Sl NO">98</SimpleData>
+		<SimpleData name="Name of th">Amblipura melina kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�54'47.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'46.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.663,12.9133056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">97</SimpleData>
+		<SimpleData name="Sl NO">99</SimpleData>
+		<SimpleData name="Name of th">Kaigondanahalli Lake / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�54'45.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'21.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6725,12.9126111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">98</SimpleData>
+		<SimpleData name="Sl NO">100</SimpleData>
+		<SimpleData name="Name of th">Doddakanenahalli kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�54'42.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'35.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6931389,12.9117222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">99</SimpleData>
+		<SimpleData name="Sl NO">101</SimpleData>
+		<SimpleData name="Name of th">Kasavanahalli lake / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�54'16.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'04.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6677778,12.9044444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">100</SimpleData>
+		<SimpleData name="Sl NO">102</SimpleData>
+		<SimpleData name="Name of th">Haraluru kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�53'45.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'45.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6626111,12.8959722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">101</SimpleData>
+		<SimpleData name="Sl NO">103</SimpleData>
+		<SimpleData name="Name of th">Sowl kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�55'06.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'45.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6794167,12.9183333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">102</SimpleData>
+		<SimpleData name="Sl NO">104</SimpleData>
+		<SimpleData name="Name of th">Devarabeesanahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�55'22.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'12.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6868889,12.923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">103</SimpleData>
+		<SimpleData name="Sl NO">105</SimpleData>
+		<SimpleData name="Name of th">Junnasandra lake</SimpleData>
+		<SimpleData name="Latitude">12�54'07.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'49.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6804722,12.9019444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">104</SimpleData>
+		<SimpleData name="Sl NO">106</SimpleData>
+		<SimpleData name="Name of th">Bhoganahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�55'22.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'57.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6991667,12.9227778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">105</SimpleData>
+		<SimpleData name="Sl NO">107</SimpleData>
+		<SimpleData name="Name of th">Gunjur Palya kere</SimpleData>
+		<SimpleData name="Latitude">12�55'12.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'22.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7230278,12.9200833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">106</SimpleData>
+		<SimpleData name="Sl NO">108</SimpleData>
+		<SimpleData name="Name of th">Gunjur mouji kere</SimpleData>
+		<SimpleData name="Latitude">12�55'00.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�44'23.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7398889,12.9168056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">107</SimpleData>
+		<SimpleData name="Sl NO">109</SimpleData>
+		<SimpleData name="Name of th">Panathur lake</SimpleData>
+		<SimpleData name="Latitude">12�55'52.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'25.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7070278,12.9313056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">108</SimpleData>
+		<SimpleData name="Sl NO">110</SimpleData>
+		<SimpleData name="Name of th">Chikkabelandur Lake</SimpleData>
+		<SimpleData name="Latitude">12�54'44.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'08.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7191111,12.9123889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">109</SimpleData>
+		<SimpleData name="Sl NO">111</SimpleData>
+		<SimpleData name="Name of th">Gunjuru Karmelaram lake</SimpleData>
+		<SimpleData name="Latitude">12�55'03.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'38.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7107778,12.91775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">110</SimpleData>
+		<SimpleData name="Sl NO">112</SimpleData>
+		<SimpleData name="Name of th">Panthur lake</SimpleData>
+		<SimpleData name="Latitude">12�55'57.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'01.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7171389,12.9325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">111</SimpleData>
+		<SimpleData name="Sl NO">113</SimpleData>
+		<SimpleData name="Name of th">Munnekolalu kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�57'38.4&quot;N 
+</SimpleData>
+		<SimpleData name="Longitude">77�42'30.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7083333,12.9606667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">112</SimpleData>
+		<SimpleData name="Sl NO">114</SimpleData>
+		<SimpleData name="Name of th">Chinnappanahalli/ Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�57'56.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'27.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7075,12.9655556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">113</SimpleData>
+		<SimpleData name="Sl NO">115</SimpleData>
+		<SimpleData name="Name of th">Kundalahalli Lake</SimpleData>
+		<SimpleData name="Latitude">12�58'13.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'10.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7196944,12.9704444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">114</SimpleData>
+		<SimpleData name="Sl NO">116</SimpleData>
+		<SimpleData name="Name of th">Doddanekundi lake</SimpleData>
+		<SimpleData name="Latitude">12�58'33.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'09.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6858889,12.9760833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">115</SimpleData>
+		<SimpleData name="Sl NO">117</SimpleData>
+		<SimpleData name="Name of th">Shilavanthana kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">12�57'51.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�44'32.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7422778,12.9643889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">116</SimpleData>
+		<SimpleData name="Sl NO">118</SimpleData>
+		<SimpleData name="Name of th">Siddapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�57'30.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'31.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7253889,12.9584167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">117</SimpleData>
+		<SimpleData name="Sl NO">119</SimpleData>
+		<SimpleData name="Name of th">Nalluralli tank</SimpleData>
+		<SimpleData name="Latitude">12�58'28.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�44'06.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.73525,12.9744722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">118</SimpleData>
+		<SimpleData name="Sl NO">120</SimpleData>
+		<SimpleData name="Name of th">Pattandur agrahara lake</SimpleData>
+		<SimpleData name="Latitude">12�58'33.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�44'43.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7454444,12.9760278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">119</SimpleData>
+		<SimpleData name="Sl NO">121</SimpleData>
+		<SimpleData name="Name of th">Pattandur agrahara</SimpleData>
+		<SimpleData name="Latitude">12�58'48.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�44'17.7&quot;E
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.73825,12.9801389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">120</SimpleData>
+		<SimpleData name="Sl NO">122</SimpleData>
+		<SimpleData name="Name of th">Mahadevapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�59'12.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'33.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6926111,12.98675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">121</SimpleData>
+		<SimpleData name="Sl NO">123</SimpleData>
+		<SimpleData name="Name of th">Mahadevapura  Lake /East taluk</SimpleData>
+		<SimpleData name="Latitude">12�59'14.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'33.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6925,12.9874722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">122</SimpleData>
+		<SimpleData name="Sl NO">124</SimpleData>
+		<SimpleData name="Name of th">Vibhuthipura kere</SimpleData>
+		<SimpleData name="Latitude">12�58'02.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'35.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6766389,12.9674444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">123</SimpleData>
+		<SimpleData name="Sl NO">125</SimpleData>
+		<SimpleData name="Name of th">Sitaram Palya</SimpleData>
+		<SimpleData name="Latitude">12�58'54.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'45.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.71275,12.9818889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">124</SimpleData>
+		<SimpleData name="Sl NO">126</SimpleData>
+		<SimpleData name="Name of th">Garudachar Palya (Goshala)</SimpleData>
+		<SimpleData name="Latitude">12�59'12.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'52.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6979167,12.9867778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">125</SimpleData>
+		<SimpleData name="Sl NO">127</SimpleData>
+		<SimpleData name="Name of th">Garudachar Palya Lake</SimpleData>
+		<SimpleData name="Latitude">12�58'56.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'47.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7131667,12.9823611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">126</SimpleData>
+		<SimpleData name="Sl NO">128</SimpleData>
+		<SimpleData name="Name of th">Sadaramangala Lake</SimpleData>
+		<SimpleData name="Latitude">12�59'57.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'39.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7275278,12.9994167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">127</SimpleData>
+		<SimpleData name="Sl NO">129</SimpleData>
+		<SimpleData name="Name of th">Hoodi kere</SimpleData>
+		<SimpleData name="Latitude">12�59'58.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'59.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7165556,12.9996944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">128</SimpleData>
+		<SimpleData name="Sl NO">130</SimpleData>
+		<SimpleData name="Name of th">Hoodi Giddanakere</SimpleData>
+		<SimpleData name="Latitude">12�59'12.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�43'20.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7222778,12.9867778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">129</SimpleData>
+		<SimpleData name="Sl NO">131</SimpleData>
+		<SimpleData name="Name of th">Jimkenahalli Lake</SimpleData>
+		<SimpleData name="Latitude">13�01'36.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'13.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.687,13.0268889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">130</SimpleData>
+		<SimpleData name="Sl NO">132</SimpleData>
+		<SimpleData name="Name of th">Vijanapura kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">13�00'32.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'35.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6765556,13.0091389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">131</SimpleData>
+		<SimpleData name="Sl NO">133</SimpleData>
+		<SimpleData name="Name of th">Sigehalli / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">13�01'02.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'47.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7133056,13.0173611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">132</SimpleData>
+		<SimpleData name="Sl NO">134</SimpleData>
+		<SimpleData name="Name of th">Devsandra kere / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">13�00'17.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'38.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6941389,13.0048611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">133</SimpleData>
+		<SimpleData name="Sl NO">135</SimpleData>
+		<SimpleData name="Name of th">Kowdenhalli lake / Bangalore East</SimpleData>
+		<SimpleData name="Latitude">13�00'43.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'06.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6851944,13.0120556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">134</SimpleData>
+		<SimpleData name="Sl NO">136</SimpleData>
+		<SimpleData name="Name of th">Challakere  Lake /East taluk</SimpleData>
+		<SimpleData name="Latitude">13�01'34.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'41.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6448056,13.0263611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">135</SimpleData>
+		<SimpleData name="Sl NO">137</SimpleData>
+		<SimpleData name="Name of th">Kalkere / Bangalore East taluk</SimpleData>
+		<SimpleData name="Latitude">13�02'49.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'41.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6615,13.047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">136</SimpleData>
+		<SimpleData name="Sl NO">138</SimpleData>
+		<SimpleData name="Name of th">Horamavu Lake</SimpleData>
+		<SimpleData name="Latitude">13�01'25.0&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'59.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6665833,13.0236111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">137</SimpleData>
+		<SimpleData name="Sl NO">139</SimpleData>
+		<SimpleData name="Name of th">Hormavu Agara Lake</SimpleData>
+		<SimpleData name="Latitude">13�02'10.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'28.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6578333,13.0361944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">138</SimpleData>
+		<SimpleData name="Sl NO">140</SimpleData>
+		<SimpleData name="Name of th">Nagareshwara-Nagenahalli Lake</SimpleData>
+		<SimpleData name="Latitude">13�04'29.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�38'32.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6424444,13.0748889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">139</SimpleData>
+		<SimpleData name="Sl NO">141</SimpleData>
+		<SimpleData name="Name of th">Rampura kere</SimpleData>
+		<SimpleData name="Latitude">13�02'49.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'05.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6848889,13.0470833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">140</SimpleData>
+		<SimpleData name="Sl NO">143</SimpleData>
+		<SimpleData name="Name of th">Bhattarahalli Lake</SimpleData>
+		<SimpleData name="Latitude">13�01'29.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�42'32.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7090556,13.0248056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">141</SimpleData>
+		<SimpleData name="Sl NO">144</SimpleData>
+		<SimpleData name="Name of th">Vengaihna kere /K.R.Puram Tank</SimpleData>
+		<SimpleData name="Latitude">13 00.877</SimpleData>
+		<SimpleData name="Longitude">77 41.959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6993167,13.0146167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">142</SimpleData>
+		<SimpleData name="Sl NO">145</SimpleData>
+		<SimpleData name="Name of th">Gangashetty Lake</SimpleData>
+		<SimpleData name="Latitude">13�00?16.4?</SimpleData>
+		<SimpleData name="Longitude">77�41?43.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6953889,13.0045556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">143</SimpleData>
+		<SimpleData name="Sl NO">146</SimpleData>
+		<SimpleData name="Name of th">B. Narayanapura Lake</SimpleData>
+		<SimpleData name="Latitude">12�59'46.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'57.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6825556,12.9961667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">144</SimpleData>
+		<SimpleData name="Sl NO">147</SimpleData>
+		<SimpleData name="Name of th">Cikkabasavana pura Lake</SimpleData>
+		<SimpleData name="Latitude">13�00?34.4?</SimpleData>
+		<SimpleData name="Longitude">77�42?42.3?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.71175,13.0095556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">145</SimpleData>
+		<SimpleData name="Sl NO">148</SimpleData>
+		<SimpleData name="Name of th">Kattigenahalli Kere-31 Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�06'52.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'42.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6284722,13.1146389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">146</SimpleData>
+		<SimpleData name="Sl NO">149</SimpleData>
+		<SimpleData name="Name of th">Thirumenahalli Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�05'34.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'42.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6284444,13.0928611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">147</SimpleData>
+		<SimpleData name="Sl NO">150</SimpleData>
+		<SimpleData name="Name of th">Agrahara Lake / Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�05'22.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'30.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6251944,13.0895278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">148</SimpleData>
+		<SimpleData name="Sl NO">151</SimpleData>
+		<SimpleData name="Name of th">Kogilu lake Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�06'34.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'06.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6185,13.1096389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">149</SimpleData>
+		<SimpleData name="Sl NO">152</SimpleData>
+		<SimpleData name="Name of th">Narasipura-20 Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�04.311?</SimpleData>
+		<SimpleData name="Longitude">77�33.490?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5581667,13.07185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">150</SimpleData>
+		<SimpleData name="Sl NO">153</SimpleData>
+		<SimpleData name="Name of th">Chokkanahalli lake</SimpleData>
+		<SimpleData name="Latitude">13�05'04.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'45.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6293333,13.0845556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">151</SimpleData>
+		<SimpleData name="Sl NO">154</SimpleData>
+		<SimpleData name="Name of th">Jakkur lake (Sampigehalli Lake)</SimpleData>
+		<SimpleData name="Latitude">13�05'07.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'40.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.61125,13.0855278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">152</SimpleData>
+		<SimpleData name="Sl NO">155</SimpleData>
+		<SimpleData name="Name of th">Narasipura-26 Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�04.604?</SimpleData>
+		<SimpleData name="Longitude">77�33.246?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5541,13.0767333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">153</SimpleData>
+		<SimpleData name="Sl NO">156</SimpleData>
+		<SimpleData name="Name of th">Doddabommasandra lake / Bangalore North Additional</SimpleData>
+		<SimpleData name="Latitude">13�03'52.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'50.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5640278,13.0646944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">154</SimpleData>
+		<SimpleData name="Sl NO">157</SimpleData>
+		<SimpleData name="Name of th">Kattigenahalli Kere-136 (Palanahalli lake) /Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�06'57.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'59.3&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6164722,13.1158611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">155</SimpleData>
+		<SimpleData name="Sl NO">158</SimpleData>
+		<SimpleData name="Name of th">Rachenahalli lake/ Bangalore North Additional</SimpleData>
+		<SimpleData name="Latitude">13�03'42.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'53.5&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6148611,13.0616944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">156</SimpleData>
+		<SimpleData name="Sl NO">159</SimpleData>
+		<SimpleData name="Name of th">Singapura Lake</SimpleData>
+		<SimpleData name="Latitude">13�05'06.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�32'18.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5385833,13.0852222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">157</SimpleData>
+		<SimpleData name="Sl NO">160</SimpleData>
+		<SimpleData name="Name of th">Srinivasapura Kere</SimpleData>
+		<SimpleData name="Latitude">13�06?18.2?</SimpleData>
+		<SimpleData name="Longitude">77�37?35.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6265,13.1050556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">158</SimpleData>
+		<SimpleData name="Sl NO">161</SimpleData>
+		<SimpleData name="Name of th">Venkatehpura Lake</SimpleData>
+		<SimpleData name="Latitude">13�04'39.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�37'24.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6235833,13.0776944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">159</SimpleData>
+		<SimpleData name="Sl NO">162</SimpleData>
+		<SimpleData name="Name of th">Amruthahalli lake</SimpleData>
+		<SimpleData name="Latitude">13�03'43.3&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'56.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5991111,13.0620278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">160</SimpleData>
+		<SimpleData name="Sl NO">163</SimpleData>
+		<SimpleData name="Name of th">Hebbala lake</SimpleData>
+		<SimpleData name="Latitude">13�02'48.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'10.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5862778,13.0467778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">161</SimpleData>
+		<SimpleData name="Sl NO">164</SimpleData>
+		<SimpleData name="Name of th">Nagavara</SimpleData>
+		<SimpleData name="Latitude">13�02'42.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�36'33.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6092778,13.04525</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">162</SimpleData>
+		<SimpleData name="Sl NO">165</SimpleData>
+		<SimpleData name="Name of th">Yelahanka kere / Bangalore North Additional</SimpleData>
+		<SimpleData name="Latitude">13�06'46.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'40.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5946944,13.1129167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">163</SimpleData>
+		<SimpleData name="Sl NO">166</SimpleData>
+		<SimpleData name="Name of th">Veerasagara lake Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�06'07.7&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'22.9&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5563611,13.1021389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">164</SimpleData>
+		<SimpleData name="Sl NO">167</SimpleData>
+		<SimpleData name="Name of th">Attur Lake / Bangalore North Additional</SimpleData>
+		<SimpleData name="Latitude">13�06'40.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'43.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5619722,13.11125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">165</SimpleData>
+		<SimpleData name="Sl NO">168</SimpleData>
+		<SimpleData name="Name of th">Ramagondanahalli Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">13�06?59.0?</SimpleData>
+		<SimpleData name="Longitude">77�33?18.6?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5551667,13.1163889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">166</SimpleData>
+		<SimpleData name="Sl NO">169</SimpleData>
+		<SimpleData name="Name of th">Allasandra lake / Bangalore North Additional</SimpleData>
+		<SimpleData name="Latitude">13�05'29.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�35'10.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5862222,13.0916111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">167</SimpleData>
+		<SimpleData name="Sl NO">170</SimpleData>
+		<SimpleData name="Name of th">Avalahalli / Bangalore North Addi</SimpleData>
+		<SimpleData name="Latitude">12�51'55.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�33'58.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5662222,12.8655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">168</SimpleData>
+		<SimpleData name="Sl NO">171</SimpleData>
+		<SimpleData name="Name of th">Harohalli lake Bangalore North Addl</SimpleData>
+		<SimpleData name="Latitude">12�59'20.9&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'23.0&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4897222,12.9891389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">169</SimpleData>
+		<SimpleData name="Sl NO">172</SimpleData>
+		<SimpleData name="Name of th">Bettahalli lake</SimpleData>
+		<SimpleData name="Latitude">13�00'44.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�27'16.4&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4545556,13.0124444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">170</SimpleData>
+		<SimpleData name="Sl NO">173</SimpleData>
+		<SimpleData name="Name of th">Vaderahalli</SimpleData>
+		<SimpleData name="Latitude">13�05'38.8&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�32'25.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5405,13.0941111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">171</SimpleData>
+		<SimpleData name="Sl NO">174</SimpleData>
+		<SimpleData name="Name of th">Shivanahalli Lake</SimpleData>
+		<SimpleData name="Latitude">13�05?28.5?</SimpleData>
+		<SimpleData name="Longitude">77�35?41.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5947222,13.09125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">172</SimpleData>
+		<SimpleData name="Sl NO">175</SimpleData>
+		<SimpleData name="Name of th">Puttenahalli lake</SimpleData>
+		<SimpleData name="Latitude">13�06'41.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�34'37.1&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5769722,13.1115278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">173</SimpleData>
+		<SimpleData name="Sl NO">176</SimpleData>
+		<SimpleData name="Name of th">Bellahalli</SimpleData>
+		<SimpleData name="Latitude">13�06?14.2?</SimpleData>
+		<SimpleData name="Longitude">77�38?37.6?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6437778,13.1039444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">174</SimpleData>
+		<SimpleData name="Sl NO">177</SimpleData>
+		<SimpleData name="Name of th">Lakshmipura lake</SimpleData>
+		<SimpleData name="Latitude">13�05?10.4?</SimpleData>
+		<SimpleData name="Longitude">77�31?50.6?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5307222,13.0862222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">175</SimpleData>
+		<SimpleData name="Sl NO">178</SimpleData>
+		<SimpleData name="Name of th">Soolikere</SimpleData>
+		<SimpleData name="Latitude">12�57'05.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�27'34.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4596111,12.9515</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">176</SimpleData>
+		<SimpleData name="Sl NO">179</SimpleData>
+		<SimpleData name="Name of th">Kannali lake</SimpleData>
+		<SimpleData name="Latitude">12�57 ? 59.2</SimpleData>
+		<SimpleData name="Longitude">77�27?37.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4603889,12.9664444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">177</SimpleData>
+		<SimpleData name="Sl NO">180</SimpleData>
+		<SimpleData name="Name of th">Kenchanapura lake</SimpleData>
+		<SimpleData name="Latitude"></SimpleData>
+		<SimpleData name="Longitude"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>0,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">178</SimpleData>
+		<SimpleData name="Sl NO">181</SimpleData>
+		<SimpleData name="Name of th">Sompura Lake</SimpleData>
+		<SimpleData name="Latitude">12�52'28.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�29'52.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.498,12.8746111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">179</SimpleData>
+		<SimpleData name="Sl NO">182</SimpleData>
+		<SimpleData name="Name of th">Gandhinagar Hosakerehalli</SimpleData>
+		<SimpleData name="Latitude">12�55 ? 23.8</SimpleData>
+		<SimpleData name="Longitude">77�28?50.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4805556,12.9232778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">180</SimpleData>
+		<SimpleData name="Sl NO">183</SimpleData>
+		<SimpleData name="Name of th">Medi agrahara lake</SimpleData>
+		<SimpleData name="Latitude">13�06?00.1?</SimpleData>
+		<SimpleData name="Longitude">77�31?39.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5275,13.1000278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">181</SimpleData>
+		<SimpleData name="Sl NO">184</SimpleData>
+		<SimpleData name="Name of th">Bhimana kuppe</SimpleData>
+		<SimpleData name="Latitude">12�54.611 ?</SimpleData>
+		<SimpleData name="Longitude">77�26.079?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.43465,12.9101833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">182</SimpleData>
+		<SimpleData name="Sl NO">185</SimpleData>
+		<SimpleData name="Name of th">Madavara lake</SimpleData>
+		<SimpleData name="Latitude">13�03'06.4&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�28'45.7&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4793611,13.0517778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">183</SimpleData>
+		<SimpleData name="Sl NO">186</SimpleData>
+		<SimpleData name="Name of th">Chikkabasthi lake         ( ramsandra lake)</SimpleData>
+		<SimpleData name="Latitude">12�56 ? 48.430</SimpleData>
+		<SimpleData name="Longitude">77�28?18.156?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.47171,12.9467861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">184</SimpleData>
+		<SimpleData name="Sl NO">187</SimpleData>
+		<SimpleData name="Name of th">Kannur</SimpleData>
+		<SimpleData name="Latitude">13�05'59.2&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'05.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6514444,13.0997778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">185</SimpleData>
+		<SimpleData name="Sl NO">188</SimpleData>
+		<SimpleData name="Name of th">Chikkagubbi</SimpleData>
+		<SimpleData name="Latitude">13�05'14.6&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�39'52.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6646111,13.0873889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">186</SimpleData>
+		<SimpleData name="Sl NO">189</SimpleData>
+		<SimpleData name="Name of th">Doddagubbi</SimpleData>
+		<SimpleData name="Latitude">13�04'31.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'28.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6746111,13.0754167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">187</SimpleData>
+		<SimpleData name="Sl NO">190</SimpleData>
+		<SimpleData name="Name of th">Yarappanahalli</SimpleData>
+		<SimpleData name="Latitude">13�05'16.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'59.6&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6832222,13.0879167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">188</SimpleData>
+		<SimpleData name="Sl NO">191</SimpleData>
+		<SimpleData name="Name of th">Kadusonnappanahalli</SimpleData>
+		<SimpleData name="Latitude">13�06'10.1&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�40'09.2&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6692222,13.1028056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">189</SimpleData>
+		<SimpleData name="Sl NO">192</SimpleData>
+		<SimpleData name="Name of th">Vijanapura Lake</SimpleData>
+		<SimpleData name="Latitude">13�01'16.5&quot;N</SimpleData>
+		<SimpleData name="Longitude">77�41'06.8&quot;E</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6852222,13.02125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">190</SimpleData>
+		<SimpleData name="Sl NO">193</SimpleData>
+		<SimpleData name="Name of th">Konena Agrahara lake</SimpleData>
+		<SimpleData name="Latitude">12�57?32.4?</SimpleData>
+		<SimpleData name="Longitude">77�39?31.0?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6586111,12.959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">191</SimpleData>
+		<SimpleData name="Sl NO">194</SimpleData>
+		<SimpleData name="Name of th">Byatagunte Playa</SimpleData>
+		<SimpleData name="Latitude">13�00?24.4?</SimpleData>
+		<SimpleData name="Longitude">77�38?14.5?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6373611,13.0067778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">192</SimpleData>
+		<SimpleData name="Sl NO">195</SimpleData>
+		<SimpleData name="Name of th">Lingarajapura Lake</SimpleData>
+		<SimpleData name="Latitude">13�00?26.5?</SimpleData>
+		<SimpleData name="Longitude">77�37?55.6?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6321111,13.0073611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">193</SimpleData>
+		<SimpleData name="Sl NO">196</SimpleData>
+		<SimpleData name="Name of th">Geddalahalli</SimpleData>
+		<SimpleData name="Latitude">13�07?12.0?</SimpleData>
+		<SimpleData name="Longitude">77�20?42.1?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.3450278,13.12</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">194</SimpleData>
+		<SimpleData name="Sl NO">197</SimpleData>
+		<SimpleData name="Name of th">Belakahalli</SimpleData>
+		<SimpleData name="Latitude">12�54?26.0?</SimpleData>
+		<SimpleData name="Longitude">77�36?08.9?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6024722,12.9072222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">195</SimpleData>
+		<SimpleData name="Sl NO">198</SimpleData>
+		<SimpleData name="Name of th">Arehalli 2 &amp; 3 (Small tanks)</SimpleData>
+		<SimpleData name="Latitude">12�54?50.245?</SimpleData>
+		<SimpleData name="Longitude">77�32?2.663?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5340731,12.9139569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">196</SimpleData>
+		<SimpleData name="Sl NO">199</SimpleData>
+		<SimpleData name="Name of th">Doresani palya</SimpleData>
+		<SimpleData name="Latitude">12�54?12.1?</SimpleData>
+		<SimpleData name="Longitude">77�35?49.1?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5969722,12.9033611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">197</SimpleData>
+		<SimpleData name="Sl NO">200</SimpleData>
+		<SimpleData name="Name of th">Chikkalsandra Lake</SimpleData>
+		<SimpleData name="Latitude">12�54?55.8?</SimpleData>
+		<SimpleData name="Longitude">77�54?55.8?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.9155,12.9155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">198</SimpleData>
+		<SimpleData name="Sl NO">201</SimpleData>
+		<SimpleData name="Name of th">Ittmadu</SimpleData>
+		<SimpleData name="Latitude">12�55?11.9?</SimpleData>
+		<SimpleData name="Longitude">77�32?49.4?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5470556,12.9199722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">199</SimpleData>
+		<SimpleData name="Sl NO">202</SimpleData>
+		<SimpleData name="Name of th">Thavarekare</SimpleData>
+		<SimpleData name="Latitude">12�55?44.7?</SimpleData>
+		<SimpleData name="Longitude">77�36?44.7?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6124167,12.9290833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">200</SimpleData>
+		<SimpleData name="Sl NO">204</SimpleData>
+		<SimpleData name="Name of th">Karisandra lake</SimpleData>
+		<SimpleData name="Latitude">12�55?08.7?</SimpleData>
+		<SimpleData name="Longitude">77�34?18.7?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5718611,12.9190833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">201</SimpleData>
+		<SimpleData name="Sl NO">205</SimpleData>
+		<SimpleData name="Name of th">Bovimaranahalli</SimpleData>
+		<SimpleData name="Latitude">12�54.956 ?</SimpleData>
+		<SimpleData name="Longitude">77�31.398?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5233,12.9159333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">202</SimpleData>
+		<SimpleData name="Sl NO">206</SimpleData>
+		<SimpleData name="Name of th">Gundopanth lake</SimpleData>
+		<SimpleData name="Latitude">12�56.211 ?</SimpleData>
+		<SimpleData name="Longitude">77�31.780?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5296667,12.93685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">203</SimpleData>
+		<SimpleData name="Sl NO">207</SimpleData>
+		<SimpleData name="Name of th">Kamakshi palya</SimpleData>
+		<SimpleData name="Latitude">12�59.043?</SimpleData>
+		<SimpleData name="Longitude">77�31.774?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5295667,12.98405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">204</SimpleData>
+		<SimpleData name="Sl NO">208</SimpleData>
+		<SimpleData name="Name of th">Anche ramana kere (Gangondanahalli)</SimpleData>
+		<SimpleData name="Latitude">12�57.478?</SimpleData>
+		<SimpleData name="Longitude">77�31.488?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5248,12.9579667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">205</SimpleData>
+		<SimpleData name="Sl NO">209</SimpleData>
+		<SimpleData name="Name of th">Sanigoruvahalli</SimpleData>
+		<SimpleData name="Latitude">12�59.461?</SimpleData>
+		<SimpleData name="Longitude">77�32.614?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5435667,12.9910167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#lakes">
+		<SimpleData name="FID">206</SimpleData>
+		<SimpleData name="Sl NO">210</SimpleData>
+		<SimpleData name="Name of th">Shivanahalli (Agrahara Dasarahalli)</SimpleData>
+		<SimpleData name="Latitude">12�58.989?</SimpleData>
+		<SimpleData name="Longitude">77�32.612?</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5435333,12.98315</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
