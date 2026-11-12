@@ -1,0 +1,258 @@
+[
+  {
+    "id": "jakkur",
+    "name": "Jakkur Lake: The Pioneer of Decentralized Constructed Wetlands",
+    "location": "Yelahanka Zone, North Bengaluru",
+    "extent_acres": 160.0,
+    "year_restored": "2011\u20132016",
+    "hero_summary": "How Bengaluru transformed a dying silted cesspool into India\u2019s flagship integrated wetland ecosystem, sustaining 200+ bird species and local traditional fisherfolk.",
+    "before": {
+      "condition": "Severely degraded, weed-choked water body receiving 10 MLD of raw untreated sewage from Yelahanka. Fish kills occurred seasonally with heavy silting and dry shorelines.",
+      "dissolved_oxygen": "0.8 mg/L (Anoxic / Dead Zone)",
+      "bod": "68 mg/L (Extremely High Organic Load)",
+      "fecal_coliform": "24,000 MPN/100ml",
+      "encroachment": "18.5 Acres encroached by construction debris and unauthorized fences",
+      "biodiversity": "Less than 15 avian species spotted, commercial fishing ceased",
+      "community_access": "Hazardous malodor, zero public access or recreational trails"
+    },
+    "after": {
+      "condition": "Integrated 10 MLD Secondary STP coupled with an ecological constructed wetland (macrophytes + algae ponds) filtering wastewater before it enters the main lake water body.",
+      "dissolved_oxygen": "7.4 mg/L (Healthy aquatic life)",
+      "bod": "4.1 mg/L (Safe for recreational ecosystem)",
+      "fecal_coliform": "< 500 MPN/100ml",
+      "encroachment": "0.5 Acres (98% cleared, bio-fenced with native bamboo and vetiver grasses)",
+      "biodiversity": "Over 200 species recorded, including Spot-billed Pelicans, Painted Storks, and Eurasian Spoonbills; active licensed fisherfolk cooperative harvesting 40 tonnes/year",
+      "community_access": "4.2 km paved pedestrian trail, open-air bird hide, community gazebos, zero foul odor"
+    },
+    "metrics": [
+      {
+        "parameter": "Dissolved Oxygen (DO)",
+        "before": 0.8,
+        "after": 7.4,
+        "unit": "mg/L",
+        "target": "> 5.0"
+      },
+      {
+        "parameter": "Biochemical Oxygen Demand (BOD)",
+        "before": 68.0,
+        "after": 4.1,
+        "unit": "mg/L",
+        "target": "< 10.0"
+      },
+      {
+        "parameter": "Chemical Oxygen Demand (COD)",
+        "before": 185.0,
+        "after": 18.0,
+        "unit": "mg/L",
+        "target": "< 50.0"
+      },
+      {
+        "parameter": "Bird Species Count",
+        "before": 14.0,
+        "after": 204.0,
+        "unit": "species",
+        "target": "> 100"
+      },
+      {
+        "parameter": "Water Table Rise (Surrounding Wells)",
+        "before": -32.0,
+        "after": -6.5,
+        "unit": "meters",
+        "target": "< -10.0"
+      }
+    ],
+    "key_takeaway": "Constructed wetlands act as nature-based biofilters that eliminate operating electricity costs while creating resilient urban biodiversity sanctuaries."
+  },
+  {
+    "id": "kaikondrahalli",
+    "name": "Kaikondrahalli Lake: The Gold Standard in Citizen-Led Stewardship",
+    "location": "Mahadevapura Zone, Sarjapur Road Corridor",
+    "extent_acres": 48.2,
+    "year_restored": "2010\u20132015",
+    "hero_summary": "When a real estate proposal threatened to drain the lake bed into a playground, neighborhood residents banded together to create the MAPSAS trust, revitalizing 48 acres into a community sanctuary.",
+    "before": {
+      "condition": "Dry, cracked mud bed used for illegal municipal solid waste dumping and soil excavation. High levels of chemical runoff from Sarjapur tech corridor.",
+      "dissolved_oxygen": "1.1 mg/L",
+      "bod": "54 mg/L",
+      "fecal_coliform": "16,000 MPN/100ml",
+      "encroachment": "12.0 Acres occupied by illegal sheds and parking terminals",
+      "biodiversity": "Sparrow and crow dominance only, zero nesting islands",
+      "community_access": "Perceived as a health biohazard with rampant mosquito breeding"
+    },
+    "after": {
+      "condition": "Complete community-engineered rejuvenation with desilted bunds, constructed swales, 3,000 native indigenous trees, and dedicated nesting islands.",
+      "dissolved_oxygen": "7.1 mg/L",
+      "bod": "4.8 mg/L",
+      "fecal_coliform": "< 300 MPN/100ml",
+      "encroachment": "1.0 Acre (Recovered 11 acres into community green buffer)",
+      "biodiversity": "43 butterfly species, 120+ resident and migratory bird species, otters periodically sighted",
+      "community_access": "Over 1,200 daily joggers, inclusive wheelchair-accessible perimeter paths, educational botanic signage"
+    },
+    "metrics": [
+      {
+        "parameter": "Dissolved Oxygen (DO)",
+        "before": 1.1,
+        "after": 7.1,
+        "unit": "mg/L",
+        "target": "> 5.0"
+      },
+      {
+        "parameter": "Biochemical Oxygen Demand (BOD)",
+        "before": 54.0,
+        "after": 4.8,
+        "unit": "mg/L",
+        "target": "< 10.0"
+      },
+      {
+        "parameter": "Chemical Oxygen Demand (COD)",
+        "before": 142.0,
+        "after": 22.0,
+        "unit": "mg/L",
+        "target": "< 50.0"
+      },
+      {
+        "parameter": "Bird Species Count",
+        "before": 11.0,
+        "after": 122.0,
+        "unit": "species",
+        "target": "> 80"
+      },
+      {
+        "parameter": "Tree Canopy Cover",
+        "before": 5.0,
+        "after": 68.0,
+        "unit": "%",
+        "target": "> 50%"
+      }
+    ],
+    "key_takeaway": "Civic co-management between municipal bodies (BBMP) and citizen collectives (MAPSAS) produces higher maintenance continuity than contractor-only models."
+  },
+  {
+    "id": "agara",
+    "name": "Agara Lake: Transforming a Severely Polluted Basin into an Urban Lung",
+    "location": "Bommanahalli / HSR Layout Zone",
+    "extent_acres": 98.0,
+    "year_restored": "2017\u20132021",
+    "hero_summary": "Spanning 98 acres at the critical junction of Koramangala and HSR Layout, Agara was revived through hydraulic redesign, sediment traps, and multi-tier aerators.",
+    "before": {
+      "condition": "Toxic algal blooms with thick cyanobacteria mats. Breached mud bunds caused monsoon street flooding along Outer Ring Road.",
+      "dissolved_oxygen": "1.4 mg/L",
+      "bod": "62 mg/L",
+      "fecal_coliform": "19,500 MPN/100ml",
+      "encroachment": "14.2 Acres of perimeter encroachment",
+      "biodiversity": "Severe fish asphyxiation during pre-monsoon heat waves",
+      "community_access": "Dilapidated mud embankments with frequent anti-social incidents"
+    },
+    "after": {
+      "condition": "Engineered desilting, deep water retention basins, solar-powered paddle aerators, dedicated silt-trapping forebays, and restored lake islands.",
+      "dissolved_oxygen": "6.8 mg/L",
+      "bod": "5.2 mg/L",
+      "fecal_coliform": "< 400 MPN/100ml",
+      "encroachment": "1.5 Acres (Recovered and planted with Miyawaki urban forest)",
+      "biodiversity": "Darter colonies, cormorants, purple swamphens, and flourishing freshwater fish populations",
+      "community_access": "5.5 km flood-lit synthetic and gravel track, open gym, nature education pavilion"
+    },
+    "metrics": [
+      {
+        "parameter": "Dissolved Oxygen (DO)",
+        "before": 1.4,
+        "after": 6.8,
+        "unit": "mg/L",
+        "target": "> 5.0"
+      },
+      {
+        "parameter": "Biochemical Oxygen Demand (BOD)",
+        "before": 62.0,
+        "after": 5.2,
+        "unit": "mg/L",
+        "target": "< 10.0"
+      },
+      {
+        "parameter": "Chemical Oxygen Demand (COD)",
+        "before": 160.0,
+        "after": 26.0,
+        "unit": "mg/L",
+        "target": "< 50.0"
+      },
+      {
+        "parameter": "Stormwater Buffering Capacity",
+        "before": 120000.0,
+        "after": 850000.0,
+        "unit": "cu. meters",
+        "target": "> 500k"
+      },
+      {
+        "parameter": "Visitor Footfall (Weekend Avg)",
+        "before": 50.0,
+        "after": 3800.0,
+        "unit": "people/day",
+        "target": "> 1000"
+      }
+    ],
+    "key_takeaway": "Combining upstream silt forebays with solar aeration prevents recurrent eutrophication while serving as an essential flood mitigation sponge."
+  },
+  {
+    "id": "bellandur",
+    "name": "Bellandur Lake: The Epic Battle Against Industrial Toxic Foam and Fires",
+    "location": "Mahadevapura / Bellandur Valley",
+    "extent_acres": 913.0,
+    "year_restored": "2019\u2013Ongoing (NGT Supervised)",
+    "hero_summary": "Bengaluru\u2019s largest water body, spanning 913 acres, captured global headlines when toxic hydrocarbon foam burst into flames. Here is the data-driven journey of its ongoing revival.",
+    "before": {
+      "condition": "Over 450 MLD of untreated municipal sewage and toxic industrial effluents caused 10-foot chemical foam clouds, frequent spontaneous methane fires, and complete ecological collapse.",
+      "dissolved_oxygen": "0.0 mg/L (Completely Anoxic)",
+      "bod": "145 mg/L (Industrial Strength Wastewater)",
+      "fecal_coliform": "> 100,000 MPN/100ml",
+      "encroachment": "148 Acres of illegal landfilling, building encroachment and debris dumping",
+      "biodiversity": "Zero native fish survival, extreme toxic vector breeding",
+      "community_access": "Road traffic blocked by toxic floating foam; property values in proximity plunged"
+    },
+    "after": {
+      "condition": "National Green Tribunal (NGT) ordered comprehensive desilting (over 3 million cubic meters of toxic sludge evacuated), diversion channels, and commissioned intermediate STPs.",
+      "dissolved_oxygen": "2.8 mg/L (Partial recovery, foam successfully eradicated)",
+      "bod": "32.0 mg/L (78% reduction from peak toxicity)",
+      "fecal_coliform": "8,500 MPN/100ml",
+      "encroachment": "77.5 Acres recovered by BBMP/BDA joint survey taskforce",
+      "biodiversity": "Pioneer aquatic vegetation returning in peripheral channels; seasonal egrets returning",
+      "community_access": "Foam suppressed via chemical defoamers and barrier walls; work ongoing for full public eco-park"
+    },
+    "metrics": [
+      {
+        "parameter": "Dissolved Oxygen (DO)",
+        "before": 0.0,
+        "after": 2.8,
+        "unit": "mg/L",
+        "target": "> 5.0"
+      },
+      {
+        "parameter": "Biochemical Oxygen Demand (BOD)",
+        "before": 145.0,
+        "after": 32.0,
+        "unit": "mg/L",
+        "target": "< 10.0"
+      },
+      {
+        "parameter": "Toxic Foam Incidents / Year",
+        "before": 48.0,
+        "after": 0.0,
+        "unit": "events",
+        "target": "0"
+      },
+      {
+        "parameter": "Desilted Toxic Sludge Evacuated",
+        "before": 0.0,
+        "after": 3.2,
+        "unit": "million cu.m",
+        "target": "> 3.0"
+      },
+      {
+        "parameter": "Encroachment Clearance",
+        "before": 0.0,
+        "after": 70.5,
+        "unit": "acres recovered",
+        "target": "> 100"
+      }
+    ],
+    "key_takeaway": "Restoring mega-catchment lakes requires strict industrial zero-liquid discharge enforcement alongside massive decentralized catchment-level sewage treatment."
+  }
+]
