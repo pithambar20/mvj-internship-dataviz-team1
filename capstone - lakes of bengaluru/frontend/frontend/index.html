@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakes of Bengaluru — Civic Environmental Data Visualisation Platform</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- 100% Free & Keyless Leaflet CSS (Locally hosted, Zero API Keys) -->
+  <link rel="stylesheet" href="css/leaflet.css">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand-group">
+        <div class="brand-logo-icon">&#128167;</div>
+        <div>
+          <h1 class="brand-title">Lakes of Bengaluru</h1>
+          <p class="brand-subtitle">BBMP Lakes & Urban Water Bodies Visualisation Track</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav>
+        <ul class="nav-tabs">
+          <li>
+            <a class="nav-link active" data-view="view-map">
+              <span>&#128506; City Lake Map</span>
+              <span id="tab-count-lakes" class="badge-counter">207</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-view="view-charts">
+              <span>&#128202; Python Visuals</span>
+              <span class="badge-counter">6</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-view="view-story">
+              <span>&#128260; Before / After Story</span>
+              <span class="badge-counter">4</span>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" data-view="view-directory">
+              <span>&#128203; Lakes Directory</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main App Content -->
+  <main class="main-content">
+
+    <!-- KPI Metric Summary Strip (Always Visible at Top) -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-header">
+          <span class="kpi-label">TOTAL WATER BODIES</span>
+          <span class="kpi-icon">&#127754;</span>
+        </div>
+        <div class="kpi-value" id="kpi-total-lakes">207</div>
+        <div class="kpi-sub">Across 8 BBMP Municipal Zones</div>
+      </div>
+
+      <div class="kpi-card accent-green">
+        <div class="kpi-header">
+          <span class="kpi-label">REJUVENATED LAKES</span>
+          <span class="kpi-icon">&#9989;</span>
+        </div>
+        <div class="kpi-value" id="kpi-rejuvenated">107 <span style="font-size:16px; font-weight:600;">(51.7%)</span></div>
+        <div class="kpi-sub">Fenced with Walking Trails</div>
+      </div>
+
+      <div class="kpi-card accent-blue">
+        <div class="kpi-header">
+          <span class="kpi-label">TOTAL SURFACE BASIN</span>
+          <span class="kpi-icon">&#128208;</span>
+        </div>
+        <div class="kpi-value" id="kpi-total-acres">5,390 <span style="font-size:14px; font-weight:600;">Acres</span></div>
+        <div class="kpi-sub">Stormwater Recharge Sponge</div>
+      </div>
+
+      <div class="kpi-card accent-amber">
+        <div class="kpi-header">
+          <span class="kpi-label">WORK IN PROGRESS</span>
+          <span class="kpi-icon">&#9874;</span>
+        </div>
+        <div class="kpi-value" id="kpi-wip">37 <span style="font-size:16px; font-weight:600;">(17.9%)</span></div>
+        <div class="kpi-sub">Active Desilting & STP Interception</div>
+      </div>
+
+      <div class="kpi-card accent-red">
+        <div class="kpi-header">
+          <span class="kpi-label">ENCROACHMENT RISK</span>
+          <span class="kpi-icon">&#9888;</span>
+        </div>
+        <div class="kpi-value" id="kpi-encroached">17 <span style="font-size:16px; font-weight:600;">(8.2%)</span></div>
+        <div class="kpi-sub">Perimeter Violation > 25%</div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         VIEW 1: INTERACTIVE CITY LAKE MAP (100% KEYLESS OPENSTREETMAP)
+         ========================================================================= -->
+    <div id="view-map" class="view-panel active">
+      
+      <!-- Multi-Criteria Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label for="filter-zone">Zone</label>
+          <select id="filter-zone" class="filter-select">
+            <option value="all">All Zones (8)</option>
+            <option value="Mahadevapura">Mahadevapura</option>
+            <option value="Bommanahalli">Bommanahalli</option>
+            <option value="Yelahanka">Yelahanka</option>
+            <option value="Bangalore South">Bangalore South</option>
+            <option value="Bangalore East">Bangalore East</option>
+            <option value="Bangalore West">Bangalore West</option>
+            <option value="Rajarajeshwari Nagar">Rajarajeshwari Nagar</option>
+            <option value="Dasarahalli">Dasarahalli</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-status">Rejuvenation Status</label>
+          <select id="filter-status" class="filter-select">
+            <option value="all">All Statuses</option>
+            <option value="Developed / Rejuvenated">Developed / Rejuvenated</option>
+            <option value="Work in Progress">Work in Progress</option>
+            <option value="To Be Developed">To Be Developed</option>
+            <option value="Degraded / Encroached">Degraded / Encroached</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-size">Surface Area</label>
+          <select id="filter-size" class="filter-select">
+            <option value="all">All Sizes</option>
+            <option value="small">Small (< 15 Acres)</option>
+            <option value="medium">Medium (15 - 50 Acres)</option>
+            <option value="large">Large (> 50 Acres)</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-search">Search Lake / Ward</label>
+          <input type="text" id="filter-search" class="filter-input" placeholder="e.g. Jakkur, Bellandur, Agara...">
+        </div>
+
+        <button id="btn-reset-filters" class="btn btn-secondary">&#x21bb; Reset</button>
+        
+        <div style="margin-left: auto; font-size: 12.5px; font-weight: 600; color: var(--text-muted); display:flex; align-items:center; gap:8px;">
+          <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#27AE60;"></span>
+          Showing: <span id="filtered-lake-count" style="color:var(--primary-navy); font-weight:800;">207</span> lakes (Keyless OSM)
+        </div>
+      </div>
+
+      <!-- Map & Sidebar Split Grid -->
+      <div class="map-view-wrapper">
+        <div class="map-card">
+          <div id="lake-map"></div>
+        </div>
+
+        <!-- Sidebar List with Zoom-to-Lake -->
+        <aside class="map-sidebar">
+          <div class="sidebar-header">
+            <h3 class="sidebar-title">Water Bodies Directory</h3>
+            <p style="font-size:11px; color:var(--text-light); margin-top:2px;">Click any lake to pan & inspect</p>
+          </div>
+          <ul id="lake-list-container" class="lake-list">
+            <!-- Dynamically populated via map.js -->
+          </ul>
+        </aside>
+      </div>
+
+    </div>
+
+    <!-- =========================================================================
+         VIEW 2: PYTHON DATA VISUALIZATIONS (MATPLOTLIB & SEABORN GALLERY)
+         ========================================================================= -->
+    <div id="view-charts" class="view-panel">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Python Data Visualisations Gallery</h2>
+          <p class="section-desc">Publication-grade charts generated natively via Python <code>matplotlib</code> & <code>seaborn</code> applying ColorBrewer palettes, zero-baselines, and pre-attentive hierarchy.</p>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <select id="chart-zone-filter" class="filter-select">
+            <option value="all">All Bengaluru Zones</option>
+            <option value="Mahadevapura">Mahadevapura Zone</option>
+            <option value="Bommanahalli">Bommanahalli Zone</option>
+            <option value="Yelahanka">Yelahanka Zone</option>
+            <option value="Bangalore South">Bangalore South</option>
+          </select>
+          <button id="btn-refresh-charts" class="btn btn-primary">&#x21bb; Regenerate Visuals</button>
+        </div>
+      </div>
+
+      <!-- Charts 6-Card Grid -->
+      <div class="charts-grid" id="charts-container">
+        <!-- Rendered by charts.js -->
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         VIEW 3: BEFORE / AFTER REJUVENATION STORY
+         ========================================================================= -->
+    <div id="view-story" class="view-panel">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Before & After Rejuvenation Stories</h2>
+          <p class="section-desc">Interactive spatial comparisons and empirical chemical transformations across Bengaluru's hallmark lake restoration case studies.</p>
+        </div>
+      </div>
+
+      <!-- Story Lake Selector Pills -->
+      <div class="story-selector" id="story-selector-pills">
+        <button class="story-pill active" data-story="jakkur">&#129414; Jakkur Lake (Constructed Wetland)</button>
+        <button class="story-pill" data-story="kaikondrahalli">&#128101; Kaikondrahalli Lake (Citizen MAPSAS)</button>
+        <button class="story-pill" data-story="agara">&#127795; Agara Lake (Biodiversity Park)</button>
+        <button class="story-pill" data-story="bellandur">&#9888; Bellandur Lake (Catchment Sink & De-silting)</button>
+      </div>
+
+      <!-- Story Narrative & Interactive Split Slider -->
+      <div id="story-content-container">
+        <!-- Injected dynamically via story.js -->
+      </div>
+    </div>
+
+    <!-- =========================================================================
+         VIEW 4: COMPREHENSIVE LAKES DIRECTORY & DATA EXPLORER
+         ========================================================================= -->
+    <div id="view-directory" class="view-panel">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Bengaluru Lakes Master Inventory</h2>
+          <p class="section-desc">Unified database cross-referencing OpenCity KML coordinates, BBMP custody records, and environmental water quality metrics.</p>
+        </div>
+        <button id="btn-export-csv" class="btn btn-primary">&#x2193; Export Master CSV</button>
+      </div>
+
+      <div class="table-card">
+        <div class="table-responsive">
+          <table class="data-table" id="directory-table">
+            <thead>
+              <tr>
+                <th>Lake Name</th>
+                <th>Civic Zone</th>
+                <th>Area (Acres)</th>
+                <th>Rejuvenation Status</th>
+                <th>WQI Score</th>
+                <th>Dissolved O2</th>
+                <th>Encroachment %</th>
+                <th>Walking Trail</th>
+                <th>Custodian Agency</th>
+              </tr>
+            </thead>
+            <tbody id="directory-table-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Fullscreen Chart Inspection Modal -->
+  <div id="chart-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeChartModal()">&times;</button>
+      <h3 id="modal-title" style="margin-bottom:15px; color:var(--primary-navy);"></h3>
+      <div style="text-align:center;">
+        <img id="modal-img" src="" alt="Expanded Chart" style="max-width:100%; height:auto; border-radius:6px; box-shadow:var(--shadow-md);">
+      </div>
+      <p id="modal-desc" style="margin-top:15px; font-size:13px; color:var(--text-muted);"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <strong>BCA (Data Science) Final Year Internship 2026–27</strong> | DS5P3 Data Visualisation Track
+        <div style="color:var(--text-light); font-size:11px; margin-top:3px;">
+          Data Sources: OpenCity.in &bull; Bruhat Bengaluru Mahanagara Palike (BBMP) &bull; Karnataka State Pollution Control Board (KSPCB) &bull; 100% Free & Keyless OpenStreetMap
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://data.opencity.in/dataset/bengaluru-lakes-data-and-reports" target="_blank">OpenCity Dataset</a>
+        <a href="https://github.com" target="_blank">GitHub Repository</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 100% Free & Keyless Leaflet JS (Locally Hosted, Zero API Keys) -->
+  <script src="js/leaflet.js"></script>
+  
+  <!-- Embedded Master Data Fallback for standalone / offline preview -->
+  <script src="js/data_fallback.js"></script>
+
+  <!-- App Application Scripts -->
+  <script src="js/map.js"></script>
+  <script src="js/story.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
