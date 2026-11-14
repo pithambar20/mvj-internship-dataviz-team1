@@ -9,9 +9,11 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 
-CHARTS_DIR = r'c:\Users\admin\Documents\internship\backend\static\charts'
-DATA_PATH = r'c:\Users\admin\Documents\internship\backend\data\lakes_master.json'
-STORIES_PATH = r'c:\Users\admin\Documents\internship\backend\data\before_after_stories.json'
+BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BACKEND_DIR, 'data')
+CHARTS_DIR = os.path.join(BACKEND_DIR, 'static', 'charts')
+DATA_PATH = os.path.join(DATA_DIR, 'lakes_master.json')
+STORIES_PATH = os.path.join(DATA_DIR, 'before_after_stories.json')
 os.makedirs(CHARTS_DIR, exist_ok=True)
 
 # Set global aesthetics adhering to data visualization principles

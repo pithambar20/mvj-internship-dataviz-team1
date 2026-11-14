@@ -9,6 +9,7 @@ import pandas as pd
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BACKEND_DIR = os.path.join(BASE_DIR, 'backend')
 FRONTEND_DIR = os.path.join(BASE_DIR, 'frontend')
+FRONTEND_APP_DIR = os.path.join(FRONTEND_DIR, 'frontend')
 DATA_DIR = os.path.join(BACKEND_DIR, 'data')
 CHARTS_DIR = os.path.join(BACKEND_DIR, 'static', 'charts')
 
@@ -41,7 +42,7 @@ if not os.path.exists(CHARTS_DIR) or len(os.listdir(CHARTS_DIR)) < 6:
     generate_all_charts()
 
 # Initialize Flask application with frontend static directory
-app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path='')
+app = Flask(__name__, static_folder=FRONTEND_APP_DIR, static_url_path='')
 
 # Global CORS Headers
 @app.after_request
@@ -64,12 +65,12 @@ def get_stories_data():
 # ------------------------------------------------------------------------------
 @app.route('/')
 def serve_index():
-    return send_from_directory(FRONTEND_DIR, 'index.html')
+    return send_from_directory(FRONTEND_APP_DIR, 'index.html')
 
 @app.route('/<path:path>')
 def serve_static(path):
-    if os.path.exists(os.path.join(FRONTEND_DIR, path)):
-        return send_from_directory(FRONTEND_DIR, path)
+    if os.path.exists(os.path.join(FRONTEND_APP_DIR, path)):
+        return send_from_directory(FRONTEND_APP_DIR, path)
     return jsonify({'error': f'Path /{path} not found'}), 404
 
 # ------------------------------------------------------------------------------
@@ -273,9 +274,9 @@ if __name__ == '__main__':
     print(" LAKES OF BENGALURU — DATA VISUALISATION PLATFORM")
     print("="*70)
     print(" Server running at: http://localhost:5000")
-    print(" Static Frontend:   c:\\Users\\admin\\Documents\\internship\\frontend")
-    print(" Backend Analytics: c:\\Users\\admin\\Documents\\internship\\backend")
-    print(" UI Design Specs:   c:\\Users\\admin\\Documents\\internship\\UI")
+    print(f" Static Frontend:   {FRONTEND_DIR}")
+    print(f" Backend Analytics: {BACKEND_DIR}")
+    print(f" UI Design Specs:   {os.path.join(BASE_DIR, 'UI')}")
     print(" Open http://localhost:5000 in your browser to explore the website.")
     print("="*70 + "\n")
     app.run(host='0.0.0.0', port=5000, debug=True)

@@ -13,16 +13,15 @@
 This project is a full-stack data visualization platform built to analyze, map, and communicate the environmental status of **207 lakes across Bengaluru**. It features an interactive geospatial city map, publication-grade Python visualizations (`matplotlib`, `seaborn`), an interactive before-and-after lake rejuvenation split slider, and a comprehensive master data explorer.
 
 ### Running the Platform:
-1. **Start the Flask Backend:**
+1. **From the project root, start the Flask app:**
    ```bash
-   cd backend
    python app.py
    ```
    *The server runs at:* `http://localhost:5000` (serves both API and the Web Client).
 
 2. **Open the Website in Browser:**
    - Navigate to [`http://localhost:5000`](http://localhost:5000)
-   - Alternatively, open [`frontend/index.html`](file:///c:/Users/admin/Documents/internship/frontend/index.html) directly in any browser (supported via built-in data fallback).
+   - Alternatively, open [`frontend/frontend/index.html`](frontend/frontend/index.html) directly in a browser (supported via built-in data fallback).
 
 ---
 

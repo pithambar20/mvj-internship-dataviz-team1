@@ -6,7 +6,8 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import numpy as np
 
-DATA_DIR = r'c:\Users\admin\Documents\internship\backend\data'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, 'data')
 os.makedirs(DATA_DIR, exist_ok=True)
 
 KML_URL = 'https://data.opencity.in/dataset/c6f59a91-ac49-4fbf-ad80-0d21e3003263/resource/b45946a5-026d-44f7-96c2-063810e54bb4/download/4c6316b9-0777-44e1-bffb-a6f51f3d34aa.kml'
