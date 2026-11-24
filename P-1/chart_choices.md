@@ -8,10 +8,6 @@ Choose a chart that makes the answer to a data question easy to see. The best ch
 
 | # | Sample question | Recommended chart | Why it works |
 |---|---|---|---|
-| 1 | How has rainfall changed over the years? | Line chart | Shows trends and changes over time. |
-| 2 | Which month has the highest rainfall? | Bar chart | Makes it easy to compare rainfall across months. |
-| 3 | Which category has the highest value? | Bar chart | Supports clear comparisons between categories. |
-| 4 | How are rainfall values distributed? | Histogram | Shows the frequency and shape of a numerical distribution. |
 | 5 | What share of the total does each category represent? | Pie chart or bar chart | Shows parts of a whole; use only a few categories for a pie chart, and use a bar chart when precise comparisons matter. |
 | 6 | Is there a relationship between rainfall and temperature? | Scatter plot | Reveals patterns or relationships between two numerical variables. |
 | 7 | How does rainfall vary by month and year? | Heatmap | Uses colour to show patterns across two dimensions, such as month and year. |
